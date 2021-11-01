@@ -1,0 +1,19 @@
+#giftsets{
+    display: flex;
+    gap: 3%;
+    margin-top: 2%;
+    margin-left: 1%;
+}
+#giftsets>h5{
+    color: #673AB7;
+}
+#discountblock{
+    display: flex;
+    color: #311B92;
+}
+#hr{
+    border: 3px solid #311B92; 
+    width: 70%;
+    margin-left: 15px;
+    margin-top: 12px; 
+}
