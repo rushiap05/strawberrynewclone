@@ -24,7 +24,7 @@ function changeori(){
 //da32f09f6311aca662588aeda28758dfb5b2fec6feacf4d9c05d11876981ad1a
 //search?engine=google_product
 async function fetchd(){
-    let res = await fetch(`https://serpapi.com/search.json?q=beauty product&hl=en&gl=us&api_key=da32f09f6311aca662588aeda28758dfb5b2fec6feacf4d9c05d11876981ad1a`)
+    let res = await fetch(`https://serpapi.com/search.json?engine=google&q=beauty+products&google_domain=google.com&hl=en&tbm=shop&start=25&num=25&api_key=5587dc4fe3f6be85ba8153203e0f6a8e244758a15928dc4b10784924eac63228`)
     let data = await res.json()
     showprod(data.shopping_results)
     console.log(data)
@@ -84,12 +84,15 @@ function showprod(d){
 
 
 async function fetchd2(){
-    let res = await fetch(`https://serpapi.com/search.json?q=naturalbeautyproduct&hl=en&gl=us&api_key=da32f09f6311aca662588aeda28758dfb5b2fec6feacf4d9c05d11876981ad1a`)
+    let res = await fetch(`https://serpapi.com/search.json?engine=google&q=beauty+scoop&google_domain=google.com&hl=en&tbm=shop&start=8&num=8&api_key=5587dc4fe3f6be85ba8153203e0f6a8e244758a15928dc4b10784924eac63228`)
     let data = await res.json()
     showprod2(data.shopping_results)
-    //console.log(data)
+    console.log(data)
 }
 fetchd2()
+
+
+
 let cont2 = document.getElementById('cont2')
 cont2.style.display = "grid"
 cont2.style.gridTemplateColumns = "auto auto auto auto"
@@ -136,13 +139,13 @@ function showprod2(d){
 }
 
 async function fetchd3(){
-    let res = await fetch(`https://serpapi.com/search.json?q=make up gifts&hl=en&gl=us&api_key=da32f09f6311aca662588aeda28758dfb5b2fec6feacf4d9c05d11876981ad1a`)
+    let res = await fetch(`https://serpapi.com/search.json?engine=google&q=make+up+gifts&google_domain=google.com&hl=en&tbm=shop&start=8&num=8&api_key=5587dc4fe3f6be85ba8153203e0f6a8e244758a15928dc4b10784924eac63228`)
     let data = await res.json()
     showprod3(data.shopping_results)
     console.log(data)
 }
 fetchd3()
-
+fetchd()
 let cont3 = document.getElementById('cont3')
 cont3.style.display = "grid"
 cont3.style.marginTop ="100px"
@@ -196,4 +199,3 @@ function showprod3(d){
 
 
 
-fetchd()
