@@ -105,8 +105,7 @@ prod_name.textContent=product.name;
   addtocart_btn.onclick=function(){
       
       addtoCart(product)
-      // console.log(product)
-
+      showalert(product)
   }
 
 div.append(img,prod_name,prod_price,addtocart_btn);
@@ -125,11 +124,8 @@ function addtoCart(p){
 let kohl_cart=JSON.parse(localStorage.getItem("cart"));
 kohl_cart.push(p);
 localStorage.setItem("cart",JSON.stringify(kohl_cart)); 
-// console.log(kohl_cart) 
-alert("Product Added into Cart")
 
   kohl_cart.forEach(function(product){
-      // console.log(typeof product.price)
       sum=sum+Number(product.price)
       counter++;
   });
@@ -139,3 +135,17 @@ alert("Product Added into Cart")
   sum1.textContent=sum;
   par.append(sum1)
 }
+function showalert(prod){
+        let par = JSON.parse(localStorage.getItem("cart"));
+        let name = prod.name;
+        let price = prod.price;
+        let c = 0;
+        par.forEach(function(par){
+            if(name === par.name && price === par.price){
+                c++;
+            }
+        })
+        if(c>=2){
+            alert("Product already in cart")
+        }
+    }
