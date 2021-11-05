@@ -183,6 +183,26 @@ if(par == null){
     div.append(h4, h43, h44)
     cont22.append(div)
 }
+
+
+
+
+
+
+
+
+
+var c = 0;
+
+
+
+
+
+
+
+
+
+
 if(par == null){
     cont22.innerHTML = null
 } else {
@@ -211,10 +231,36 @@ if(par == null){
     h43.innerText = "INR"
     let h44 = document.createElement('h4')
     h44.innerHTML = null
+
+
+
+   
+
+
+
     h44.innerText = Number.parseFloat(total).toFixed(2);
     console.log(total)
 
     
+    let promo = document.getElementById('promo')
+    let apply = document.getElementById('apply')
+    apply.addEventListener('click', applypromo)
+
+    function applypromo(){
+        let promo = document.getElementById('promo')
+        if(promo.value == "Masai@123" && c == 0){
+            total = total * 0.7;
+            c++;
+            h44.innerText = Number.parseFloat(total).toFixed(2);
+            console.log(total)
+        } else if(c>=1){
+            alert('Already Used Promo code')
+        } else {
+            alert("Invalid Promo Code")
+        }
+    }
+
+
 
     h43.style.marginLeft = "19%"
     div.append(h4, h41, h42, h43, h44)
@@ -251,8 +297,6 @@ if(par == null){
     let h44 = document.createElement('h2')
     h44.innerHTML = null
     h44.innerText = Number.parseFloat(sum).toFixed(2);
-    total = total + sum
-    console.log(total)
     h43.style.marginLeft = "50%"
     div.append(h4, h41, h42, h43, h44)
     cont112.append(div)
