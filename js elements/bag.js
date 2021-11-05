@@ -48,13 +48,176 @@ if(par == null){
         div.append(imgs, title, price)
         cont112.append(div, hr)
     })
-    let hr1 = document.createElement('hr')
-    hr1.style.marginTop = "50px"
-    hr1.style.width = "94%"
-    hr1.style.margin = "auto"
-    cont112.append(hr1)
 }
-
+var total = 0;
+if(par == null){
+    cont112.innerHTML = null
+} else {
+    cont112.style.display = "grid"
+    cont112.style.gridTemplateColumns = "auto"
+    let div = document.createElement('div')
+    div.style.display = "flex"
+    div.style.marginLeft = "1.5%";
+    div.style.marginTop = "15px"
+    div.style.gap = "1%"
+    let h4 = document.createElement('h5')
+    h4.innerText = "Item Total:";
+    let h41 = document.createElement('h5')
+    h41.innerHTML = null;
+    h41.innerText = par.length;
+    let h42 = document.createElement('h5')
+    h42.innerText = "item(s)‎"
+    var sum = 0;
+    par.forEach((p)=>{
+        sum = sum + p.price
+    })
+    let h43 = document.createElement('h6')
+    h43.innerHTML = null;
+    h43.innerText = "INR"
+    let h44 = document.createElement('h5')
+    h44.innerHTML = null
+    h44.innerText = Number.parseFloat(sum).toFixed(2);
+    total = total + sum
+    console.log(total)
+    h43.style.marginLeft = "60%"
+    div.append(h4, h41, h42, h43, h44)
+    cont112.append(div)
+}
+if(par == null){
+    cont112.innerHTML = null
+} else {
+    cont112.style.display = "grid"
+    cont112.style.gridTemplateColumns = "auto"
+    let div = document.createElement('div')
+    div.style.display = "flex"
+    div.style.marginLeft = "1.5%"
+    div.style.gap = "1%"
+    div.style.color = "#F44336"
+    let h4 = document.createElement('h6')
+    h4.innerText = "Extra 10% Off (New Customer)";
+    var sum = 0;
+    par.forEach((p)=>{
+        sum = sum + p.price
+    })
+    let h43 = document.createElement('h6')
+    h43.innerHTML = null;
+    h43.innerText = "-INR"
+    let h44 = document.createElement('h6')
+    h44.innerHTML = null
+    h44.innerText = Number.parseFloat((sum*0.1)).toFixed(2);
+    total = total - Number.parseFloat((sum*0.1)).toFixed(2)
+    console.log(total)
+    h43.style.marginLeft = "55.6%"
+    div.append(h4, h43, h44)
+    cont112.append(div)
+}
+if(par == null){
+    cont112.innerHTML = null
+} else {
+    cont112.style.display = "grid"
+    cont112.style.gridTemplateColumns = "auto"
+    let div = document.createElement('div')
+    div.style.display = "flex"
+    div.style.marginLeft = "1.5%"
+    div.style.gap = "1%"
+    div.style.color = "#F44336"
+    let h4 = document.createElement('h6')
+    h4.innerText = "Extra 8% Off (11.11 Early Bird Sale)";
+    var sum = 0;
+    par.forEach((p)=>{
+        sum = sum + p.price
+    })
+    let h43 = document.createElement('h6')
+    h43.innerHTML = null;
+    h43.innerText = "-INR"
+    let h44 = document.createElement('h6')
+    h44.innerHTML = null
+    h44.innerText = Number.parseFloat((sum*0.08)).toFixed(2)
+    total = total - Number.parseFloat((sum*0.08)).toFixed(2)
+    console.log(total)
+    h43.style.marginLeft = "53.1%"
+    div.append(h4, h43, h44)
+    cont112.append(div)
+}
+if(par == null){
+    cont112.innerHTML = null
+} else {
+    cont112.style.display = "grid"
+    cont112.style.gridTemplateColumns = "auto"
+    let div = document.createElement('div')
+    div.style.display = "flex"
+    div.style.marginLeft = "1.5%"
+    div.style.gap = "1%";
+    let h4 = document.createElement('h6')
+    h4.innerText = "Standard Shipping (Signature)";
+    let h43 = document.createElement('h6')
+    h43.innerHTML = null;
+    h43.innerText = "INR"
+    let h44 = document.createElement('h6')
+    h44.innerHTML = null
+    h44.innerText = "0.00"
+    h43.style.marginLeft = "56.4%"
+    div.append(h4, h43, h44)
+    cont112.append(div)
+}
+if(par == null){
+    cont112.innerHTML = null
+} else {
+    cont112.style.display = "grid"
+    cont112.style.gridTemplateColumns = "auto"
+    let div = document.createElement('div')
+    div.style.display = "flex"
+    div.style.marginLeft = "1.5%"
+    div.style.gap = "1%";
+    let h4 = document.createElement('h6')
+    h4.innerText = "Freight Surcharge ?";
+    var sum = Math.floor(Math.random() * 80)
+    let h43 = document.createElement('h6')
+    h43.innerHTML = null;
+    h43.innerText = "INR"
+    let h44 = document.createElement('h6')
+    h44.innerHTML = null
+    h44.innerText = sum;
+    total = total - sum;
+    console.log(total)
+    h43.style.marginLeft = "65.3%"
+    div.append(h4, h43, h44)
+    cont112.append(div)
+}
+if(par == null){
+    cont112.innerHTML = null
+} else {
+    cont112.style.display = "grid"
+    cont112.style.gridTemplateColumns = "auto"
+    let hr = document.createElement('hr')
+    hr.style.marginTop = "-20px"
+    hr.style.width = "94%"
+    hr.style.margin = "auto"
+    hr.style.border = "1px solid black"
+    cont112.append(hr)
+    let div = document.createElement('div')
+    div.style.display = "flex"
+    div.style.marginLeft = "1.5%";
+    div.style.marginTop = "15px"
+    div.style.gap = "1%"
+    let h4 = document.createElement('h4')
+    h4.innerText = "Item Total:";
+    let h41 = document.createElement('h4')
+    h41.innerHTML = null;
+    h41.innerText = par.length;
+    let h42 = document.createElement('h4')
+    h42.innerText = "item(s)‎";
+    let h43 = document.createElement('h5')
+    h43.innerHTML = null;
+    h43.innerText = "INR"
+    let h44 = document.createElement('h4')
+    h44.innerHTML = null
+    h44.innerText = total;
+    console.log(total)
+    h43.style.marginLeft = "56%"
+    div.append(h4, h41, h42, h43, h44)
+    cont112.append(div)
+}
 let cont61 = document.getElementById('cont61');
         cont61.style.width = "95%"
 let cont611data = [
