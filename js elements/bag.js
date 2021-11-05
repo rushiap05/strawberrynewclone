@@ -48,6 +48,11 @@ if(par == null){
         div.append(imgs, title, price)
         cont112.append(div, hr)
     })
+    let hr1 = document.createElement('hr')
+    hr1.style.marginTop = "50px"
+    hr1.style.width = "94%"
+    hr1.style.margin = "auto"
+    cont112.append(hr1)
 }
 
 let cont61 = document.getElementById('cont61');

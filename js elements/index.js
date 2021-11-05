@@ -31,52 +31,52 @@ function showSlides() {
 {
   id:"1001",
 name: "Biotherm",
-price: 17.59,
+price: 217.59,
 img: "https://a.cdnsbn.com/images/products/250/20527276721.jpg",
 },
 {
   id:"1002",
 name: "Men's Tek Gear® Ultra Soft Fleece Hoodie",
-price: 17.59,
+price: 117.59,
 img: "https://a.cdnsbn.com/images/products/250/26161080301.jpg",
 },
 {
   id:"1003",
 name: "Men's Tek Gear®  Hoodie[yellow]",
-price: 17.59,
+price: 179.59,
 img: "https://a.cdnsbn.com/images/products/250/15399718806.jpg",
 },
 {
   id:"1004",
 name: "Men's Ultra Soft Fleece Hoodie",
-price: 21.59,
+price: 201.59,
 img: "https://a.cdnsbn.com/images/products/250/12804580601.jpg",
 },
 {
   id:"1005",
 name: "Men's Ultra Soft Fleece Hoodie",
-price: 15.99,
+price: 195.99,
 img: "https://b.cdnsbn.com/images/products/250/04807024702.jpg",
 },
 
 {
     id:"1005",
   name: "Men's Ultra Soft Fleece Hoodie",
-  price: 15.99,
+  price: 315.99,
   img: "https://b.cdnsbn.com/images/products/250/25040937905.jpg",
   },
 
   {
     id:"1005",
   name: "Men's Ultra Soft Fleece Hoodie",
-  price: 15.99,
+  price: 415.99,
   img: "https://b.cdnsbn.com/images/products/250/25402385944.jpg",
   },
 
   {
     id:"1005",
   name: "Men's Ultra Soft Fleece Hoodie",
-  price: 15.99,
+  price: 175.99,
   img: "https://b.cdnsbn.com/images/products/250/23542481401.jpg",
   },
 
@@ -98,7 +98,7 @@ prod_price.textContent=product.price;
 
 let prod_name=document.createElement("p");
 prod_name.textContent=product.name;
-
+prod_name.style.height = "40px"
   let addtocart_btn=document.createElement("button");
   addtocart_btn.innerText="Add to Bag";
 
