@@ -201,7 +201,7 @@ if(par == null){
     div.style.marginTop = "15px"
     div.style.gap = "1%"
     let h4 = document.createElement('h4')
-    h4.innerText = "Item Total:";
+    h4.innerText = "Order Total:";
     let h41 = document.createElement('h4')
     h41.innerHTML = null;
     h41.innerText = par.length;
@@ -212,9 +212,9 @@ if(par == null){
     h43.innerText = "INR"
     let h44 = document.createElement('h4')
     h44.innerHTML = null
-    h44.innerText = total;
+    h44.innerText = Number.parseFloat(total).toFixed(2);
     console.log(total)
-    h43.style.marginLeft = "56%"
+    h43.style.marginLeft = "54.2%"
     div.append(h4, h41, h42, h43, h44)
     cont112.append(div)
 }

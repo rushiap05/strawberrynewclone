@@ -4,7 +4,6 @@
 }
 #cont1{
     width: 64%;
-    border: 1px solid black;
 }
 #cont2{
     width: 34%;
@@ -30,7 +29,7 @@
 }
 #cont22{
     margin-top: 10px;
-    height: 250px;
+    height: 270px;
     background-color: white;
 }
 #cont112{
