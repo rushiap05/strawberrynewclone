@@ -22,4 +22,18 @@ function showprod(item){
     img.src = item.thumbnail
     div1.append(img)
     let div2 = document.createElement('div')
+    let tit = document.createElement('h4')
+    tit.innerText = item.title
+    let price = document.createElement('p')
+    price.innerText = item.price
+    let sourc = document.createElement('p')
+    sourc.innerText = item.source
+    let rat = document.createElement('p')
+    rat.innerText = item.ratine
+    let review = document.createElement('p')
+    review.innerText = item.reviews
+    div2.append(tit, price, sourc, rat, review)
+    cont.style.display = "flex"
+    cont.append(div1, div2)
 }
+showprod(item)
