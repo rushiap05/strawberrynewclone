@@ -1,0 +1,102 @@
+/* FOOTER WHOLE PART */
+
+/* FIRST BOX */
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: lato,sans-serif;
+}
+
+.light-purple {
+    background: url(https://a.cdnsbn.com/images/common/2016footer.jpg);
+    background-repeat: repeat;
+    height: 250px;
+}
+
+.footer-center {
+    width: 80%;
+    margin: auto;
+}
+
+.footer-center {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+
+/* LEFT BOX */
+.footer-email {
+    width: 80%;
+    height: 50px;
+    font-size: 16px;
+}
+
+.footer-email + button {
+    height: 53px;
+    background-color: #662d91;
+    color: white;
+    font-weight: 700;
+    padding: 5px;
+    margin-left: -4px;
+}
+
+.footer-email + button:hover {
+    background-color: white;
+    color: #662d91;
+}
+
+ion-icon {
+    color: white;
+    font-size: 32px;
+}
+
+.footer-social {
+    margin: 20px 0px;
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px 40px;
+    grid-gap: 15px;
+}
+
+/* LEFT BOX */
+
+/* MIDDLE BOX */
+
+.footer-middlebox {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 30px 0px;
+}
+
+.footer-heart + div {
+    color: white;
+}
+
+.footer-heart > ion-icon {
+    font-size: 72px;
+}
+
+
+/* MIDDLE BOX */
+
+/* LAST BOX */
+
+.footer-lastbox {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 30px 0px;
+}
+
+.footer-plane > ion-icon {
+    font-size: 72px;
+}
+
+.footer-plane + div {
+    color: white;
+    font-size: 25px;
+}
+
+/* LAST BOX */
+
+/* FIRST BOX */
+
+/* FOOTER WHOLE PART */
