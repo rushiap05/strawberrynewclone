@@ -71,3 +71,6 @@ select{
     height: 35px;
     margin: 20px;
 }
+.container>h3{
+    text-align: center;
+}

@@ -104,6 +104,7 @@ let parent = document.getElementById("products")
     async function getdata(){
         let res =  await fetch(`https://serpapi.com/search.json?engine=google&q=latest+beauty+products&google_domain=google.com&gl=us&hl=en&tbm=shop&start=30&num=30&api_key=953d7eca211a134cd79c6e4fb3ae05b46cc51e56d88b59900029f16ce695f7d0`)
         let data = await res.json()
+        console.log(data)
         console.log(data.inline_shopping_results);
         showdata(data.inline_shopping_results)
     }
@@ -121,12 +122,16 @@ let parent = document.getElementById("products")
             img.src = product.thumbnail
             let button = document.createElement("button")
             button.textContent = "New Arrivals"
+            button.onclick = function(){
+                gotonewarr(product)
+                window.location.href = "newarr.html"
+            }
             let button2 = document.createElement("button")
             button2.textContent = "Add to bag"
             let text = document.createElement("p")
             text.textContent = "click>>>"
 
-            button.addEventListener("click",showcart)
+            //button.addEventListener("click",showcart)
             function showcart(){
                 body.innerHTML = null
                 let box = document.createElement("div")
@@ -159,12 +164,15 @@ let parent = document.getElementById("products")
 
             div2.append(img,text,button)
             div.append( name, div2,price,button2)
-            parent.append(div)
-
-           
-            
-           
-            
+            parent.append(div) 
         });
-
+    }
+    if(localStorage.getItem('newarrdata') == null){
+        localStorage.setItem("newarrdata", JSON.stringify([]));
+    }
+    function gotonewarr(product){
+        console.log(product)
+        let par = JSON.parse(localStorage.getItem('newarrdata'))
+        par.push(product)
+        localStorage.setItem('newarrdata', JSON.stringify(par))
     }
