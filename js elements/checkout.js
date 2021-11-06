@@ -65,7 +65,7 @@ if(par == null){
     h41.innerHTML = null;
     h41.innerText = par.length;
     let h42 = document.createElement('h5')
-    h42.innerText = "item(s)‎"
+    h42.innerText = "item(s)"
     var sum = 0;
     par.forEach((p)=>{
         sum = sum + p.price
@@ -177,7 +177,7 @@ if(par == null){
     let h44 = document.createElement('h6')
     h44.innerHTML = null
     h44.innerText = sum;
-    total = total - sum;
+    total = total + sum;
     console.log(total)
     h43.style.marginLeft = "41.5%"
     div.append(h4, h43, h44)
@@ -225,7 +225,7 @@ if(par == null){
     h41.innerHTML = null;
     h41.innerText = par.length;
     let h42 = document.createElement('h4')
-    h42.innerText = "item(s)‎";
+    h42.innerText = "item(s)";
     let h43 = document.createElement('h5')
     h43.innerHTML = null;
     h43.innerText = "INR"
@@ -286,7 +286,7 @@ if(par == null){
     h41.innerHTML = null;
     h41.innerText = par.length;
     let h42 = document.createElement('h4')
-    h42.innerText = "item(s)‎"
+    h42.innerText = "item(s)"
     var sum = 0;
     par.forEach((p)=>{
         sum = sum + p.price
