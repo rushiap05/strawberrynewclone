@@ -240,6 +240,10 @@ if(par == null){
     let apply = document.getElementById('apply')
     apply.addEventListener('click', applypromo)
 
+
+
+    
+    pay = Number.parseFloat(total).toFixed(2);
     function applypromo(){
         let promo = document.getElementById('promo')
         if(promo.value == "Masai@123" && c == 0){
@@ -255,7 +259,7 @@ if(par == null){
         }
     }
 
-    pay = Number.parseFloat(total).toFixed(2)
+    
 
     h43.style.marginLeft = "19%"
     div.append(h4, h41, h42, h43, h44)
