@@ -208,12 +208,6 @@ if(par == null){
 } else {
     cont22.style.display = "grid"
     cont22.style.gridTemplateColumns = "auto"
-    let hr = document.createElement('hr')
-    hr.style.marginTop = "-20px"
-    hr.style.width = "94%"
-    hr.style.margin = "auto"
-    hr.style.border = "1px solid black"
-    cont22.append(hr)
     let div = document.createElement('div')
     div.style.display = "flex"
     div.style.marginLeft = "1.5%";
@@ -300,4 +294,28 @@ if(par == null){
     h43.style.marginLeft = "50%"
     div.append(h4, h41, h42, h43, h44)
     cont112.append(div)
+}
+
+
+
+let fname = document.getElementById('fname')
+let lname = document.getElementById('lname')
+let compname = document.getElementById('compname')
+let conselect = document.getElementById('conselect')
+let add = document.getElementById('add')
+let city = document.getElementById('city')
+let state = document.getElementById('state')
+let zip = document.getElementById('zip')
+let mobile = document.getElementById('mobile')
+
+
+let makepay = document.getElementById('makepay')
+makepay.addEventListener('click', startpay)
+function startpay(){
+    if(fname.value == "" && lname.value == "" && compname.value == "" && add.value == "" && 
+    city.value == "" && state.value == "" && zip.value == "" && mobile.value == ""){
+        alert('Incomplete shipping information')
+    } else {
+        window.location.href = "payment.html"
+    }
 }

@@ -141,4 +141,37 @@
     width: 50%;
     margin-left: 25%;
     margin-bottom: 20px;
+    border: none;
+}
+#payment{
+    margin-top: 15px;
+    background-color: white;
+}
+#payment>h3{
+    padding: 10px;
+}
+#payment>div{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 5%;
+    gap: 15px;
+}
+#payment>div>input{
+    margin-top: 15px;
+}
+#payment>div>p{
+    margin-top: 8px;
+}
+#payment>button{
+    background-color: purple;
+    color: white;
+    font-weight: 600;
+    font-size: large;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 20px;
+    border: none;
+}
+#payment>p{
+    text-align: center;
 }
