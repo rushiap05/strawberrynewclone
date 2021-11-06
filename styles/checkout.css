@@ -57,3 +57,88 @@
 #cont22{
     padding: 20px;
 }
+#ship{
+    margin-top: 15px;
+    background-color: white;
+}
+#ship>h3{
+    padding: 10px;
+}
+#ship>h4{
+    padding: 20px;
+    color: gray;
+    margin-top: -20px;
+}
+#fname{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    border: 1px solid purple;
+}
+#conselect{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    border: 1px solid purple;
+}
+#lname{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    border: 1px solid purple;
+}
+#compname{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    border: 1px solid purple;
+}
+#add{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    border: 1px solid purple;
+}
+#city{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    border: 1px solid purple;
+}
+#state{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    border: 1px solid purple;
+}
+#zip{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    border: 1px solid purple;
+}
+#number{
+    display: flex;
+    gap: 20px;
+    width: 90%;
+    margin-left: 5%;
+}
+#init{
+    border: 1px solid purple;
+    width: 100px;
+}
+#mobile{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    border: 1px solid purple;
+}   
+#save{
+    background-color: purple;
+    color: white;
+    font-weight: 600;
+    font-size: large;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 20px;
+}
