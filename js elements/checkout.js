@@ -200,7 +200,7 @@ var c = 0;
 
 
 
-
+var pay = 0;
 
 
 if(par == null){
@@ -246,6 +246,7 @@ if(par == null){
             total = total * 0.7;
             c++;
             h44.innerText = Number.parseFloat(total).toFixed(2);
+            pay = Number.parseFloat(total).toFixed(2)
             console.log(total)
         } else if(c>=1){
             alert('Already Used Promo code')
@@ -254,7 +255,7 @@ if(par == null){
         }
     }
 
-
+    pay = Number.parseFloat(total).toFixed(2)
 
     h43.style.marginLeft = "19%"
     div.append(h4, h41, h42, h43, h44)
@@ -316,6 +317,23 @@ function startpay(){
     city.value == "" && state.value == "" && zip.value == "" && mobile.value == ""){
         alert('Incomplete shipping information')
     } else {
+        if(localStorage.getItem("paymen") === null){
+            localStorage.setItem("paymen", JSON.stringify([]));
+        }
+        let makepay = document.getElementById('makepay')
+        makepay.addEventListener('click', makepayment)
+        function makepayment(){
+        //e.preventDefault();
+
+        
+        var amount = {
+            price: pay
+        }
+        var arr = JSON.parse(localStorage.getItem("paymen"))
+        arr.push(amount);
+        localStorage.setItem("paymen", JSON.stringify(arr));
+
         window.location.href = "payment.html"
+        }
     }
 }

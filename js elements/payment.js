@@ -35,7 +35,7 @@
 
     let pay = document.getElementById('pay')
 
-    let par = JSON.parse(localStorage.getItem("payment"))
+    let par = JSON.parse(localStorage.getItem("paymen"))
     console.log(par.price)
         //console.log(par.length)
     par.forEach(function(par){
