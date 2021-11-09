@@ -5,3 +5,14 @@
 #headdiv{
     display: flex;
 }
+#back{
+    display: flex;
+    gap: 15px;
+}
+#back>a>button{
+    background-color: #00A69C;
+    color: white;
+    width: 130px;
+    border: none;
+    border-radius: 5px;
+}
