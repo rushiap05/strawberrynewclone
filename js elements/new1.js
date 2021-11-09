@@ -266,7 +266,7 @@ thumbnail:
 "price":
 "$50.00",
 "extracted_price":
-500,
+1500,
 "thumbnail":
 "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRQmAzvEZi_mbc7BGPI-L35kS7JDjDv21-_FKWwikmvWG58GGPr-8NIxNyynw&usqp=CAE",
 "delivery":
@@ -360,7 +360,7 @@ thumbnail:
 "price":
 "$9.00",
 "extracted_price":
-900,
+3900,
 "thumbnail":
 "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQlkwA3sutY8qXwVNxohl5aY69KZWmesauAo5fNdZDI3HNoByWi-UhC42Nhbw&usqp=CAE",
 "delivery":
@@ -414,7 +414,7 @@ thumbnail:
 "price":
 "$50.00",
 "extracted_price":
-570,
+5570,
 "thumbnail":
 "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ_W72LYIKNLF4NvNokE3B2cUxplTk_cnZ8Rky39v3RXD-OhPT7hyV-IHBTdek&usqp=CAE",
 "delivery":
@@ -1011,7 +1011,7 @@ showdata(data)
             sort2.addEventListener("click",sorting1)
             function sorting1(){
                 parent.innerHTML = null
-                   if(product.extracted_price < 300){
+                   if(product.extracted_price > 1000){
                        
                         let k = document.getElementById("sorting300")
                         s.innerHTML = null
