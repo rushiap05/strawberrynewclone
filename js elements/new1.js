@@ -1,106 +1,109 @@
-// let data =[
-//     {
-//         name:"Hermes",
-//         description:"H24 Eau De Toilette Spray",
-//         quantity:"50ml/1.6oz",
-//         img:"https://a.cdnsbn.com/images/products/msn/26203640105.jpg",
-//         price:"6,196",
-//     },
-//     {
-//         name:"Hermes",
-//         description:"H24 Eau De Toilette Spray",
-//         quantity:"100ml/1.6oz",
-//         img:"https://a.cdnsbn.com/images/products/msn/26203640105.jpg",
-//         price:"8,446",
-//     },
-//     {
-//         name:"Gucci",
-//         description:"Flora by Gucci Gorgeous Gardenia Eau De Parfum Spray",
-//         quantity:"100ml/3.3oz",
-//         img:"https://a.cdnsbn.com/images/products/msn/26842633806.jpg",
-//         price:"10,455",
-//     },
-//     {
-//         name:"Serge Lutens",
-//         description:"La Domptenuse Encagee Eau De Parfum Spray",
-//         quantity:"50ml/1.6oz",
-//         img:"https://a.cdnsbn.com/images/products/msn/26891089106.jpg",
-//         price:"8,442",
-//     },
-//     {
-//         name:"Calvin Klein",
-//         description:"CK One Summer Eau De Toilette Spray(2021 Edition)",
-//         quantity:"100ml/3.3oz",
-//         img:"https://b.cdnsbn.com/images/products/msn/26446484006.jpg",
-//         price:"3,718",
-//     },
-//     {
-//         name:"SK 11",
-//         description:"Skin Powder Eye Cream",
-//         quantity:"15g/0.5oz",
-//         img:"https://b.cdnsbn.com/images/products/msn/26224681101.jpg",
-//         price:"9,797",
-//     },
-//     {
-//         name:"Valmont",
-//         description:"V-line Lifting Cream",
-//         quantity:"50ml/1.7oz",
-//         img:"https://d.cdnsbn.com/images/products/msn/23307982101.jpg",
-//         price:"22,797",
-//     },
-//     {
-//         name:"Prada",
-//         description:"Luna Rossa Ocean Eau De Toilette Spray",
-//         quantity:"100ml/3.3oz",
-//         img:"https://a.cdnsbn.com/images/products/msn/26769024805.jpg",
-//         price:"7,597",
-//     },
-//     {
-//         name:"3W Clinic",
-//         description:"Collagen Extra Moisturizing Cream",
-//         quantity:"60ml/2oz",
-//         img:"https://a.cdnsbn.com/images/products/msn/26144543501.jpg",
-//         price:"1,433",
-//     },
-//     {
-//         name:"3W Clinic",
-//         description:"Collagen Extra Moisturizing Cream",
-//         quantity:"150ml/5oz",
-//         img:"https://a.cdnsbn.com/images/products/msn/26144343501.jpg",
-//         price:"1,355",
-//     },
-//     {
-//         name:"111Skin",
-//         description:"Sub-Zero De-Puffing Eye Mask",
-//         quantity:"8x6ml/0.2oz",
-//         img:"https://a.cdnsbn.com/images/products/msn/26666093301.jpg",
-//         price:"6,893",
-//     },
-//     {
-//         name:"111Skin",
-//         description:"The Firming Concentrate",
-//         quantity:"7x2ml/0.07oz",
-//         img:"https://a.cdnsbn.com/images/products/msn/26783093301.jpg",
-//         price:"12,934",
-//     },
-//     {
-//         name:"111Skin",
-//         description:"Vitaminc Brightening Booster",
-//         quantity:"20ml/0.68oz",
-//         img:"https://a.cdnsbn.com/images/products/msn/26665893301.jpg",
-//         price:"10,223",
-//     },
-//     {
-//         name:"111Skin",
-//         description:"Celestial Black Diamond Eye Mask",
-//         quantity:"8X6ml/0.2oz",
-//         img:"https://a.cdnsbn.com/images/products/msn/26665493301.jpg",
-//         price:"7,590",
-//     },
-
-// ]
-
 let data = [
+       {
+                source:"Sisley",
+                title:"La Domptenuse Encagee Eau De Parfum Spray",
+                quantity:"50ml/1.6oz",
+                thumbnail:"https://a.cdnsbn.com/images/products/msn/26891089106.jpg",
+                extracted_price:"844",
+            },
+    {
+                source:"Gucci",
+                title:"Flora by Gucci Gorgeous Gardenia Eau De Parfum Spray",
+                quantity:"100ml/3.3oz",
+                thumbnail:"https://a.cdnsbn.com/images/products/msn/26842633806.jpg",
+                extracted_price:"1455",
+            },
+            {
+                source:"Sisley",
+                title:"La Domptenuse Encagee Eau De Parfum Spray",
+                quantity:"50ml/1.6oz",
+                thumbnail:"https://a.cdnsbn.com/images/products/msn/26313983102.jpg",
+                extracted_price:"844",
+            },
+    {
+        source:"Hermes",
+        title:"H24 Eau De Toilette Spray",
+        quantity:"50ml/1.6oz",
+        thumbnail: "https://c.cdnsbn.com/images/products/msn/26671440105.jpg",
+        extracted_price:"619",
+    },
+    {
+        source:"Sisley",
+        title:"La Domptenuse Encagee Eau De Parfum Spray",
+        quantity:"50ml/1.6oz",
+        thumbnail:"https://a.cdnsbn.com/images/products/msn/26073883106.jpg",
+        extracted_price:"844",
+    },
+            
+     {
+        source:"111Skin",
+        title:"The Firming Concentrate",
+        quantity:"7x2ml/0.07oz",
+        thumbnail:"https://a.cdnsbn.com/images/products/msn/26783093301.jpg",
+        extracted_price:"934",
+     },
+     {
+        source:"Gucci",
+        title:"Guilty pour Homme Eau De Parfum Spray",
+        quantity:"100ml/3.3oz",
+        thumbnail:"https://a.cdnsbn.com/images/products/msn/12957833805.jpg",
+        extracted_price:"10,455",
+    },
+    {
+        source:"3W Clinic",
+        title:"Collagen Extra Moisturizing Cream",
+        quantity:"60ml/2oz",
+        thumbnail:"https://a.cdnsbn.com/images/products/msn/26144543501.jpg",
+        extracted_price:"143",
+    },
+    {
+        source:"111Skin",
+        title:"The Firming Concentrate",
+        quantity:"7x2ml/0.07oz",
+        thumbnail:"https://a.cdnsbn.com/images/products/msn/26783093301.jpg",
+        extracted_price:"1234",
+    },
+    {
+        source:"Gucci",
+        title:"Guilty pour Femme Eau De Parfum Spray",
+        quantity:"100ml/3.3oz",
+        thumbnail:"https://a.cdnsbn.com/images/products/msn/26072933806.jpg",
+        extracted_price:"10,455",
+    },
+    {
+        source:"3W Clinic",
+        title:"Collagen Extra Moisturizing Cream",
+        quantity:"60ml/2oz",
+        thumbnail:"https://a.cdnsbn.com/images/products/msn/26144543501.jpg",
+        extracted_price:"1033",
+    },
+    {
+        source:"111Skin",
+        title:"Celestial Black Diamond Eye Mask",
+        quantity:"8X6ml/0.2oz",
+        thumbnail:"https://a.cdnsbn.com/images/products/msn/26665493301.jpg",
+        extracted_price:"759",
+    },
+    {
+        block_position: "top",
+        extracted_price: 356,
+        link: "https://www.google.com/aclk?sa=l&ai=DChcSEwjx4Oyz8fvzAhWMtsgKHd5NDpIYABABGgJxdQ&sig=AOD64_2VXNH85c9JLv3jgqL2BxCL0xXL1w&ctype=5&q=&ved=0ahUKEwiv9-az8fvzAhXSgGoFHQmsDmY4HhDDDwiFBg&adurl=",
+        position: 1,
+        price: "$29.00",
+        rating: 5,
+        reviews: 3,
+        source: "tarte cosmetics ",
+        thumbnail: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS6hUzKamnULhzP9wd1fXlTE1dLdPqAlOkH27ktv_Nb2nl1fGhrqMu4DyK01SCzQxiIkncYzxQ&usqp=CAE",
+        title: "Tarte Surfer Curl Makeup Must-Haves - Multi",
+    },
+    {
+       source:"Hermes",
+       title:"H24 Eau De Toilette Spray",
+       quantity:"100ml/1.6oz",
+        thumbnail:"https://a.cdnsbn.com/images/products/msn/26203640105.jpg",
+        extracted_price:"844",
+    },
+    
     {
     position:1,
 title:"Farmasi Assorted Products Hair Skin Face - New Beauty | Color: Beige",
@@ -148,6 +151,20 @@ thumbnail:
 "$11.50 delivery"
 },
 {
+    source:"Sisley",
+    title:"La Domptenuse Encagee Eau De Parfum Spray",
+    quantity:"50ml/1.6oz",
+    thumbnail:"https://c.cdnsbn.com/images/products/msn/26314083102.jpg",
+    extracted_price:"678",
+},
+{
+            source:"111Skin",
+            title:"Vitaminc Brightening Booster",
+            quantity:"20ml/0.68oz",
+            thumbnail:"https://a.cdnsbn.com/images/products/msn/26665893301.jpg",
+            extracted_price:"1223",
+        },
+{
 "position":
 4,
 "title":
@@ -188,6 +205,20 @@ thumbnail:
 "$11.50 delivery"
 },
 {
+            source:"111Skin",
+            title:"Sub-Zero De-Puffing Eye Mask",
+            quantity:"8x6ml/0.2oz",
+            thumbnail:"https://a.cdnsbn.com/images/products/msn/26666093301.jpg",
+            extracted_price:"689",
+        },
+        {
+            source:"Sisley",
+            title:"La Domptenuse Encagee Eau De Parfum Spray",
+            quantity:"50ml/1.6oz",
+            thumbnail:"https://b.cdnsbn.com/images/products/msn/26918183106.jpg",
+            extracted_price:"987",
+        },
+{
 "position":
 6,
 "title":
@@ -195,7 +226,7 @@ thumbnail:
 "link":
 "https://www.google.com/url?url=https://www.mercari.com/us/item/m40847971702/&rct=j&q=&esrc=s&sa=U&ved=0ahUKEwjxobyFxvzzAhW8lmoFHblABQ84IxCA5QQI7wU&usg=AOvVaw3dMGghA4y8MeVd-siMEtVT",
 "source":
-"Mercari",
+"REVOLVE",
 "price":
 "$105.00",
 "extracted_price":
@@ -213,7 +244,7 @@ thumbnail:
 "link":
 "https://www.google.com/url?url=https://www.mercari.com/us/item/m63045964760/&rct=j&q=&esrc=s&sa=U&ved=0ahUKEwjxobyFxvzzAhW8lmoFHblABQ84IxCA5QQI-gU&usg=AOvVaw0xiob-WwFa64zDlFv7qehf",
 "source":
-"Mercari",
+"REVOLVE",
 "price":
 "$1.00",
 "extracted_price":
@@ -235,7 +266,7 @@ thumbnail:
 "price":
 "$50.00",
 "extracted_price":
-500,
+1500,
 "thumbnail":
 "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRQmAzvEZi_mbc7BGPI-L35kS7JDjDv21-_FKWwikmvWG58GGPr-8NIxNyynw&usqp=CAE",
 "delivery":
@@ -249,7 +280,7 @@ thumbnail:
 "link":
 "https://www.google.com/url?url=https://www.mercari.com/us/item/m34155211429/&rct=j&q=&esrc=s&sa=U&ved=0ahUKEwjxobyFxvzzAhW8lmoFHblABQ84IxCA5QQIkAY&usg=AOvVaw2Dp-5wj130MrxS4I9omDEd",
 "source":
-"Mercari",
+"REVOLVE",
 "price":
 "$25.00",
 "extracted_price":
@@ -289,7 +320,7 @@ thumbnail:
 "link":
 "https://www.google.com/url?url=https://www.mercari.com/us/item/m46108373399/&rct=j&q=&esrc=s&sa=U&ved=0ahUKEwjxobyFxvzzAhW8lmoFHblABQ84IxCA5QQIpwY&usg=AOvVaw3N5Y4JEvAvurN_8cOoHDGf",
 "source":
-"Mercari",
+"REVOLVE",
 "price":
 "$160.00",
 "extracted_price":
@@ -307,7 +338,7 @@ thumbnail:
 "link":
 "https://www.google.com/url?url=https://www.mercari.com/us/item/m97945815890/&rct=j&q=&esrc=s&sa=U&ved=0ahUKEwjxobyFxvzzAhW8lmoFHblABQ84IxCA5QQIsgY&usg=AOvVaw0PMBqloAarhrgC1rRl8nnY",
 "source":
-"Mercari",
+"SK11",
 "price":
 "$1.00",
 "extracted_price":
@@ -329,12 +360,30 @@ thumbnail:
 "price":
 "$9.00",
 "extracted_price":
-900,
+3900,
 "thumbnail":
 "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQlkwA3sutY8qXwVNxohl5aY69KZWmesauAo5fNdZDI3HNoByWi-UhC42Nhbw&usqp=CAE",
 "delivery":
 "$12.00 delivery"
 },
+{
+    "position":
+    9,
+    "title":
+    "Phantom Deordant Stick",
+    "link":
+    "https://www.google.com/url?url=https://www.mercari.com/us/item/m34155211429/&rct=j&q=&esrc=s&sa=U&ved=0ahUKEwjxobyFxvzzAhW8lmoFHblABQ84IxCA5QQIkAY&usg=AOvVaw2Dp-5wj130MrxS4I9omDEd",
+    "source":
+    "Paco Rabanne",
+    "price":
+    "$25.00",
+    "extracted_price":
+    1250,
+    "thumbnail":
+    "https://a.cdnsbn.com/images/products/msn/26660035703.jpg",
+    "delivery":
+    "$3.65 delivery"
+    },
 {
 "position":
 14,
@@ -343,7 +392,7 @@ thumbnail:
 "link":
 "https://www.google.com/url?url=https://www.mercari.com/us/item/m89081410071/&rct=j&q=&esrc=s&sa=U&ved=0ahUKEwjxobyFxvzzAhW8lmoFHblABQ84IxCA5QQIyAY&usg=AOvVaw1g5lb4AbnT4i3At_0UQJDq",
 "source":
-"Mercari",
+"SK11",
 "price":
 "$20.00",
 "extracted_price":
@@ -365,7 +414,7 @@ thumbnail:
 "price":
 "$50.00",
 "extracted_price":
-570,
+5570,
 "thumbnail":
 "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ_W72LYIKNLF4NvNokE3B2cUxplTk_cnZ8Rky39v3RXD-OhPT7hyV-IHBTdek&usqp=CAE",
 "delivery":
@@ -379,7 +428,7 @@ thumbnail:
 "link":
 "https://www.google.com/url?url=https://www.mercari.com/us/item/m99471867614/&rct=j&q=&esrc=s&sa=U&ved=0ahUKEwjxobyFxvzzAhW8lmoFHblABQ84IxCA5QQI3gY&usg=AOvVaw1OJgEWcugllUnDAl_3nRuO",
 "source":
-"Mercari",
+"SK11",
 "price":
 "$30.00",
 "extracted_price":
@@ -389,6 +438,24 @@ thumbnail:
 "delivery":
 "$11.00 delivery"
 },
+{
+    "position":
+    9,
+    "title":
+    "Lady Million Fabuluos",
+    "link":
+    "https://www.google.com/url?url=https://www.mercari.com/us/item/m34155211429/&rct=j&q=&esrc=s&sa=U&ved=0ahUKEwjxobyFxvzzAhW8lmoFHblABQ84IxCA5QQIkAY&usg=AOvVaw2Dp-5wj130MrxS4I9omDEd",
+    "source":
+    "Paco Rabanne",
+    "price":
+    "$25.00",
+    "extracted_price":
+    550,
+    "thumbnail":
+    "https://a.cdnsbn.com/images/products/msn/26339135706.jpg",
+    "delivery":
+    "$3.65 delivery"
+    },
 {
 "position":
 17,
@@ -428,10 +495,11 @@ thumbnail:
         rating: 4.5,
         reviews: 36,
         shipping: "Free shipping",
-        source: "Art of Skin Care",
+        source: "SK11",
         thumbnail: "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcS54eyIYFwpQ9Elc3pjTqDAGuxqDdI0cjPJf7qOwYammlSL_21Dtv-5e5TNTNo32wpNAYJ_gcZw&usqp=CAE",
         title: "Time Master Pro | Art of Skin Care",
     },
+    
     {
         block_position: "top",
         extracted_price: 495,
@@ -490,6 +558,24 @@ thumbnail:
         thumbnail: "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQEmVnrHg5zet1wuSxQ0vlD9kUwpta9F3hahAZek6ZAv9e42aH1saNt-HdtdYtXG_J6HhPyTBTn&usqp=CAE",
         title: "Nurse Jamie Age Delay System",
     },
+    {
+        "position":
+        9,
+        "title":
+        "Olympia Blossom Eau de parfum Florae Spray",
+        "link":
+        "https://www.google.com/url?url=https://www.mercari.com/us/item/m34155211429/&rct=j&q=&esrc=s&sa=U&ved=0ahUKEwjxobyFxvzzAhW8lmoFHblABQ84IxCA5QQIkAY&usg=AOvVaw2Dp-5wj130MrxS4I9omDEd",
+        "source":
+        "Paco Rabanne",
+        "price":
+        "$25.00",
+        "extracted_price":
+        650,
+        "thumbnail":
+        "https://b.cdnsbn.com/images/products/msn/26636135706.jpg",
+        "delivery":
+        "$3.65 delivery"
+        },
     {
         block_position: "top",
         extracted_price: 265,
@@ -555,6 +641,24 @@ thumbnail:
         thumbnail: "https://serpapi.com/searches/618257289f55b32ac00490d0/images/94f55025bf73d7ad22706e36001e6b5a2c6b8611e3a307e03df729ef39e6d473292a83794b923066.jpeg",
         title: "Honest Beauty Clean Beauty Starter Kit",
     },
+    {
+        "position":
+        9,
+        "title":
+        "Lady Blossom Eau de parfum Florae Spray",
+        "link":
+        "https://www.google.com/url?url=https://www.mercari.com/us/item/m34155211429/&rct=j&q=&esrc=s&sa=U&ved=0ahUKEwjxobyFxvzzAhW8lmoFHblABQ84IxCA5QQIkAY&usg=AOvVaw2Dp-5wj130MrxS4I9omDEd",
+        "source":
+        "Paco Rabanne",
+        "price":
+        "$25.00",
+        "extracted_price":
+        3850,
+        "thumbnail":
+        "https://c.cdnsbn.com/images/products/msn/26339035706.jpg",
+        "delivery":
+        "$3.65 delivery"
+        },
     {
         block_position: "top",
         extracted_price: 306,
@@ -705,11 +809,11 @@ showdata(data)
             button2.textContent = "Add to bag"
             let text = document.createElement("p")
             text.textContent = "click>>>"
-            let  mer = document.getElementById("mercari")
-            mer.addEventListener("click",merc)
-            function merc(){
+            let  rev = document.getElementById("revolve")
+            rev.addEventListener("click",revo)
+            function revo(){
                 
-             if(mer.checked === true){
+             if(rev.checked === true){
                 
                  if(product.source === "REVOLVE"){
                      
@@ -718,6 +822,149 @@ showdata(data)
                  }else{
                      parent.innerHTML = null
                  }
+             }else{
+                 window.location.href = "new1.html"
+             }
+            }
+            let  mer = document.getElementById("mercari")
+            mer.addEventListener("click",merc)
+            function merc(){
+                
+             if(mer.checked === true){
+                
+                 if(product.source === "Mercari"){
+                     
+                     
+                     s.append(div)
+                 }else{
+                     parent.innerHTML = null
+                 }
+             }else{
+                 window.location.href = "new1.html"
+             }
+            }
+            let  clinic = document.getElementById("3wclinic")
+              clinic.addEventListener("click",cli)
+            function cli(){
+                
+             if(clinic.checked === true){
+                
+                 if(product.source === "3W Clinic"){
+                     
+                     
+                     s.append(div)
+                 }else{
+                     parent.innerHTML = null
+                 }
+             }else{
+                 window.location.href = "new1.html"
+             }
+            }
+
+            let  skin = document.getElementById("111skin")
+              skin.addEventListener("click",ski)
+            function ski(){
+                
+             if(skin.checked === true){
+                
+                 if(product.source === "111Skin"){
+                     
+                     
+                     s.append(div)
+                 }else{
+                     parent.innerHTML = null
+                 }
+             }else{
+                 window.location.href = "new1.html"
+             }
+            }
+
+            let  herme = document.getElementById("Hermes")
+              herme.addEventListener("click",her)
+            function her(){
+                
+             if(herme.checked === true){
+                
+                 if(product.source === "Hermes"){
+                     
+                     
+                     s.append(div)
+                 }else{
+                     parent.innerHTML = null
+                 }
+             }else{
+                 window.location.href = "new1.html"
+             }
+            }
+
+            let  gucci = document.getElementById("gucci")
+              gucci.addEventListener("click",guc)
+            function guc(){
+                
+             if(gucci.checked === true){
+                
+                 if(product.source === "Gucci"){
+                     
+                     
+                     s.append(div)
+                 }else{
+                     parent.innerHTML = null
+                 }
+             }else{
+                 window.location.href = "new1.html"
+             }
+            }
+            let  sisley = document.getElementById("sisley")
+              sisley.addEventListener("click",sis)
+            function sis(){
+                
+             if(sisley.checked === true){
+                
+                 if(product.source === "Sisley"){
+                     
+                     
+                     s.append(div)
+                 }else{
+                     parent.innerHTML = null
+                 }
+             }else{
+                 window.location.href = "new1.html"
+             }
+            }
+
+            let  sk = document.getElementById("sk11")
+              sk.addEventListener("click",skl)
+            function skl(){
+                
+             if(sk.checked === true){
+                
+                 if(product.source === "SK11"){
+                     
+                     
+                     s.append(div)
+                 }else{
+                     parent.innerHTML = null
+                 }
+             }else{
+                 window.location.href = "new1.html"
+             }
+            }
+
+            let  paco = document.getElementById("Paco")
+              paco.addEventListener("click",pac)
+            function pac(){
+                
+             if(paco.checked === true){
+                
+                 if(product.source === "Paco Rabanne"){
+                     
+                     
+                     s.append(div)
+                 }else{
+                     parent.innerHTML = null
+                 }
+             }else{
+                 window.location.href = "new1.html"
              }
             }
 
@@ -764,7 +1011,7 @@ showdata(data)
             sort2.addEventListener("click",sorting1)
             function sorting1(){
                 parent.innerHTML = null
-                   if(product.extracted_price < 300){
+                   if(product.extracted_price > 1000){
                        
                         let k = document.getElementById("sorting300")
                         s.innerHTML = null
@@ -789,21 +1036,4 @@ showdata(data)
         par.push(product)
         localStorage.setItem('newarrdata', JSON.stringify(par))
     }
-//  let arr = []
-  
-//     function showfilter(items){
-//         items.forEach((item) => {
-//             let  mer = document.getElementById("mercari")
-//             mer.addEventListener("click",merc)
-//             function merc(){
-//              if(mer.checked === true){
-//                  if(item.source === "Mercari"){
-//                      console.log(item.title);
-//                  }
-//              }
-//             }
-            
-//         });
 
-//     }
-//     showfilter(data)
