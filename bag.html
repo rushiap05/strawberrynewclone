@@ -115,11 +115,24 @@
     <div id="footerEndPush"></div>
 
     <!-- FOOTER JS END -->
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 <script type="module">
     import { header } from './js elements/header.js'
     let head = document.getElementById('head')
     head.innerHTML = header;
+
+    // END FOOTER JS PART
+
+var footerEndPush = document.getElementById('footerEndPush')
+
+import footer from './js elements/footer.js'
+
+footerEndPush.innerHTML = footer()
+
+// END FOOTER JS PART
 </script>
 <script src="./js elements/bag.js"></script>
 
