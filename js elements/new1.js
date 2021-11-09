@@ -697,6 +697,10 @@ showdata(data)
             img.src = product.thumbnail
             let button = document.createElement("button")
             button.textContent = "New Arrivals"
+            button.onclick = function(){
+                gotonewarr(product)
+                window.location.href = "newarr.html"
+            }
             let button2 = document.createElement("button")
             button2.textContent = "Add to bag"
             let text = document.createElement("p")
@@ -717,7 +721,7 @@ showdata(data)
              }
             }
 
-            button.addEventListener("click",showcart)
+            //button.addEventListener("click",showcart)
             function showcart(){
                 body.innerHTML = null
                 let box = document.createElement("div")
@@ -776,8 +780,15 @@ showdata(data)
         });
 
     }
-
-
+    if(localStorage.getItem('newarrdata') == null){
+        localStorage.setItem("newarrdata", JSON.stringify([]));
+    }
+    function gotonewarr(product){
+        console.log(product)
+        let par = JSON.parse(localStorage.getItem('newarrdata'))
+        par.push(product)
+        localStorage.setItem('newarrdata', JSON.stringify(par))
+    }
 //  let arr = []
   
 //     function showfilter(items){
