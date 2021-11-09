@@ -813,3 +813,6 @@ function swaprightfun() {
 
 
 swapright.addEventListener('click', swaprightfun)
+
+
+
