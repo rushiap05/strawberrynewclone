@@ -102,6 +102,68 @@
 
 let data = [
     {
+        source:"Hermes",
+        title:"H24 Eau De Toilette Spray",
+        quantity:"50ml/1.6oz",
+        thumbnail: "https://a.cdnsbn.com/images/products/msn/26203640105.jpg",
+        extracted_price:"619",
+    },
+            
+     {
+        source:"111Skin",
+        title:"The Firming Concentrate",
+        quantity:"7x2ml/0.07oz",
+        thumbnail:"https://a.cdnsbn.com/images/products/msn/26783093301.jpg",
+        extracted_price:"934",
+     },
+    {
+        source:"3W Clinic",
+        title:"Collagen Extra Moisturizing Cream",
+        quantity:"60ml/2oz",
+        thumbnail:"https://a.cdnsbn.com/images/products/msn/26144543501.jpg",
+        extracted_price:"143",
+    },
+    {
+        source:"111Skin",
+        title:"The Firming Concentrate",
+        quantity:"7x2ml/0.07oz",
+        thumbnail:"https://a.cdnsbn.com/images/products/msn/26783093301.jpg",
+        extracted_price:"1234",
+    },
+    {
+        source:"3W Clinic",
+        title:"Collagen Extra Moisturizing Cream",
+        quantity:"60ml/2oz",
+        thumbnail:"https://a.cdnsbn.com/images/products/msn/26144543501.jpg",
+        extracted_price:"1033",
+    },
+    {
+        source:"111Skin",
+        title:"Celestial Black Diamond Eye Mask",
+        quantity:"8X6ml/0.2oz",
+        thumbnail:"https://a.cdnsbn.com/images/products/msn/26665493301.jpg",
+        extracted_price:"759",
+    },
+    {
+        block_position: "top",
+        extracted_price: 356,
+        link: "https://www.google.com/aclk?sa=l&ai=DChcSEwjx4Oyz8fvzAhWMtsgKHd5NDpIYABABGgJxdQ&sig=AOD64_2VXNH85c9JLv3jgqL2BxCL0xXL1w&ctype=5&q=&ved=0ahUKEwiv9-az8fvzAhXSgGoFHQmsDmY4HhDDDwiFBg&adurl=",
+        position: 1,
+        price: "$29.00",
+        rating: 5,
+        reviews: 3,
+        source: "tarte cosmetics ",
+        thumbnail: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS6hUzKamnULhzP9wd1fXlTE1dLdPqAlOkH27ktv_Nb2nl1fGhrqMu4DyK01SCzQxiIkncYzxQ&usqp=CAE",
+        title: "Tarte Surfer Curl Makeup Must-Haves - Multi",
+    },
+    {
+       source:"Hermes",
+       title:"H24 Eau De Toilette Spray",
+       quantity:"100ml/1.6oz",
+        thumbnail:"https://a.cdnsbn.com/images/products/msn/26203640105.jpg",
+        extracted_price:"844",
+    },
+    {
     position:1,
 title:"Farmasi Assorted Products Hair Skin Face - New Beauty | Color: Beige",
 link:"https://www.google.com/url?url=https://www.mercari.com/us/item/m39615074132/&rct=j&q=&esrc=s&sa=U&ved=0ahUKEwjxobyFxvzzAhW8lmoFHblABQ84IxCA5QQItwU&usg=AOvVaw2fYwAHkXecVRamZnyUgg6X",
@@ -705,11 +767,11 @@ showdata(data)
             button2.textContent = "Add to bag"
             let text = document.createElement("p")
             text.textContent = "click>>>"
-            let  mer = document.getElementById("mercari")
-            mer.addEventListener("click",merc)
-            function merc(){
+            let  rev = document.getElementById("revolve")
+            rev.addEventListener("click",revo)
+            function revo(){
                 
-             if(mer.checked === true){
+             if(rev.checked === true){
                 
                  if(product.source === "REVOLVE"){
                      
@@ -718,6 +780,25 @@ showdata(data)
                  }else{
                      parent.innerHTML = null
                  }
+             }else{
+                 window.location.href = "new1.html"
+             }
+            }
+            let  mer = document.getElementById("mercari")
+            mer.addEventListener("click",merc)
+            function merc(){
+                
+             if(mer.checked === true){
+                
+                 if(product.source === "Mercari"){
+                     
+                     
+                     s.append(div)
+                 }else{
+                     parent.innerHTML = null
+                 }
+             }else{
+                 window.location.href = "new1.html"
              }
             }
 
@@ -789,21 +870,4 @@ showdata(data)
         par.push(product)
         localStorage.setItem('newarrdata', JSON.stringify(par))
     }
-//  let arr = []
-  
-//     function showfilter(items){
-//         items.forEach((item) => {
-//             let  mer = document.getElementById("mercari")
-//             mer.addEventListener("click",merc)
-//             function merc(){
-//              if(mer.checked === true){
-//                  if(item.source === "Mercari"){
-//                      console.log(item.title);
-//                  }
-//              }
-//             }
-            
-//         });
 
-//     }
-//     showfilter(data)
