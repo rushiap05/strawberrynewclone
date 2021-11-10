@@ -20,8 +20,8 @@
     crossorigin="anonymous"></script>
 
 <body id="body">
-    <div id="head">
-    </div>
+    <div id="header"></div>
+    <div id="navbaroptions"  class="bg"></div>
     <div class="container">
         <h2>S H O P P I N G &nbsp; B A G</h2>
     </div>
@@ -120,9 +120,11 @@
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 <script type="module">
-    import { header } from './js elements/header.js'
-    let head = document.getElementById('head')
-    head.innerHTML = header;
+    import {headerupper,navbarbelow } from './js elements/header.js'
+    let head = document.getElementById('header')
+    head.innerHTML = headerupper();
+    let navbaroptions=document.getElementById("navbaroptions");
+  navbaroptions.innerHTML=navbarbelow();
 
     // END FOOTER JS PART
 
