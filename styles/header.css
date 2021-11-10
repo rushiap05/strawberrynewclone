@@ -205,7 +205,7 @@
   
   #products{
       margin-top: 50px;
-      height: 380px;
+      /* height: 380px; */
       display: grid;
       grid-template-columns: 18% 18% 18% 18%;
       grid-gap: 5%;
