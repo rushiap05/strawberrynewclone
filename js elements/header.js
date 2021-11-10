@@ -18,6 +18,21 @@ function header(){
             </div>    
           </div>
           <div id="endheader">
+          <div>
+        <select name="" id="country">
+            <option value="india">India</option>
+            <option value="america">America</option>
+        </select>
+        <button> Order Tracking</button>
+
+    </div>
+    <div>
+      <button><ion-icon name="person-circle-outline"></ion-icon><b>Sign in</b></button>
+      <button><ion-icon name="heart-circle-outline"></ion-icon><b>Whishlist</b></button>
+      <button><ion-icon name="bag"></ion-icon><b>Bag</b></button>
+    </div>
+    <div>
+  </div>
           </div>
           
       </div>
