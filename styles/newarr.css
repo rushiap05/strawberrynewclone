@@ -7,12 +7,13 @@
 }
 #back{
     display: flex;
-    gap: 15px;
+    gap: 10px;
+    margin-left: 50px;
 }
 #back>a>button{
     background-color: #00A69C;
     color: white;
-    width: 130px;
+    width: 150px;
     border: none;
     border-radius: 5px;
 }
