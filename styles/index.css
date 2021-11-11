@@ -1,128 +1,4 @@
-.dropbtn {
-    color: white;
-    padding: 4px 22px;
-    letter-spacing: .015em;
-    font-size: 16px;
-    border: none;
-    font-size: 12px;
-    font-weight: bold;
-  }
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 600px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  }
-  .dropdown-content a:hover {background-color: rgb(179, 42, 42);}
-  .dropdown:hover .dropdown-content {display: block;}
-  .dropdown:hover .dropbtn {background-color: white; text-decoration: underline;
-  color: #623381; font-weight: bold;
-  }
-  .bg{
-    background-color: #623381;
-    height: 35px;
-    width: 1500px;
-    margin-left: -8px;
-  }
-  
-  *{
-    box-sizing: border-box;
-    font-family: lato, sans-serif;
-  }
-  
-  .column {
-    float: left;
-    width: 200px;
-    padding: 10px;
-    height: 300px;
-    background-color: white;
-  }
-  
-  ul{
-  margin-left:-40px;
-  }
-  
-  ul:hover {
-      color: #C50D72;
-      text-decoration: underline;
-  }
-  
-  .nav-barCenter {
-      width: 90%;
-      margin: auto;
-  }
-  
-  ion-icon {
-      font-size: 17px;
-  }
-  
-  .icon-span {
-      margin-bottom: -10px;
-  }
-   #header{
-       height: 120px;
-       margin-left: -8px;
-       margin-top: -8px;
-       display: grid;
-       grid-template-columns: 25% 25% 25%;
-       grid-gap: 8%;
-   }
-  
-  #header>div >img{
-      height: 120px;
-  
-  
-  }
-   #inputdata{
-      border:none;
-      width: 93%;
-      color: #623381;
-      height: 25px;
-      font-size: 15px;
-  
-  }
-  
-  #searchbar{
-    margin-top: 25px;
-      margin-left: 25px;
-  border: 3px solid #623381 ;
-  padding: 5px;
-  color: #623381;
-  border-radius: 5px;
-  width: 120%;
-  
-  }
-  #headermiddle> div >ion-icon{
-    height: 25px;
-   width: 25px;
-  }
-  
-  #searchbar + div{
-      margin-top: 10px;
-      display: grid;
-      grid-template-columns: 25% 25% 25% 25%;
-  }
-  #searchbar + div> button{
-   border: none;
-   padding: 4px;
-   font-size: 13px;
-   width: 120px;
-   color: #623381;
-   background-color: white;
-  }
-  
-  .popularquery{
-    margin-left: 13px;
-  }
-  
-  ::placeholder{
-    color: #623381;
-  }
+
   
   /* slider css */
   
@@ -253,6 +129,9 @@
  
       #products > div > p{
           padding: 5px;
+      }
+      body{
+        background-color: #EDE7F6;
       }
   
   
