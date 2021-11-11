@@ -162,82 +162,8 @@ font-size: 15px;
   color: #C50D72;
 
 }
-/* Middle page all Data Narendra */
-#middledata{
-     margin-left: 7%;
-     margin-top: 30px;
-}
 
-/* This was changing the first product */
-#products >  div:nth-child(1){
-/* display: flex;
-flex-direction: row-reverse; */
-}
-#products > div:nth-child(1) >select{
-border: none;
-}
-#products > div:nth-child(1)>div{
-margin-right: 10px;
-margin-left: 10px;
-}
-#products > div > div >ion-icon{
-margin-top: 16px;
-height: 20px;
-width: 20px;
-border:1px solid #471a91;
-color: #471a91;
 
-}
-
-#products > div > div{
-color: #471a91;
-}
-#products > div > div >ion-icon:hover{
-color: #b48df3;
-}
-#products > div > div > p{
-font-size: 10px;
-  line-height: 1px;
-}
-#products > div > div:nth-child(3) >ion-icon{
-color: #b48df3;
-}
-#products > div >select{
-padding: 5px;
-margin: 20px;
-color: #3f1f74;
-}
-#products > div > p{
-padding-top: 5px;
-font-size: 13px;
-}
-/* Skincare Data below*/
-#availableOptions > p{
-font-size: 13px;
-margin-left: 20px;
-margin-top: 3px;
-line-height: px;
-}
-#availableOptions >h5{
-line-height: 1px;
-color: #C50D72;
-font-size: 17px;
-}
-#availableOptions > h6{
-line-height: 1px;
-color: #C50D72;
-
-}
-
-#availableOptions >h5:hover {
-text-decoration: underline;
-}  
-#availableOptions > h6:hover {
- text-decoration: underline;
-}  
-#availableOptions >p:hover{
-text-decoration: underline;
-}  
 
 
 
