@@ -12,19 +12,19 @@ function footer() {
             <input class="footer-email" type="email" placeholder="Enter email for Exclusive offer">
             <button>sign up</button>
             <div class="footer-social">
-                <div>
+                <div class="footer-ion-social">
                     <ion-icon name="logo-facebook"></ion-icon>
                 </div>
-                <div>
+                <div class="footer-ion-social">
                     <ion-icon name="logo-twitter"></ion-icon>
                 </div>
-                <div>
+                <div class="footer-ion-social">
                     <ion-icon name="logo-pinterest"></ion-icon>
                 </div>
-                <div>
+                <div class="footer-ion-social">
                     <ion-icon name="logo-instagram"></ion-icon>
                 </div>
-                <div>
+                <div class="footer-ion-social">
                     <ion-icon name="logo-youtube"></ion-icon>
                 </div>
             </div>
