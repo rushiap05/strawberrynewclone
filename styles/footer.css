@@ -2,12 +2,12 @@
 
 
 /* FIRST BOX */
-
+/* 
 * {
     margin: 0%;
     padding: 0%;
     font-family: lato, sans-serif;
-}
+} */
 
 .light-purple {
     background: url(https://a.cdnsbn.com/images/common/2016footer.jpg);
@@ -32,6 +32,11 @@
     width: 80%;
     height: 50px;
     font-size: 16px;
+}
+
+.footer-middlebox-margin > p,h3 {
+    margin: 0px;
+    padding: 0px;
 }
 
 .footer-email+button {
