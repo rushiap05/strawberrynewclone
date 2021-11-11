@@ -1,6 +1,6 @@
 function headerupper(){
   return `<div>
-  <img src="https://i.ibb.co/RzDqBPB/logo.png" alt="">
+  <img onclick="location.href='index.html'" src="https://i.ibb.co/RzDqBPB/logo.png" alt="" >
 </div>
 
 <div id="headermiddle">
@@ -25,9 +25,9 @@ function headerupper(){
 
   </div>
   <div>
-    <button><ion-icon name="person-circle-outline"></ion-icon><b>Sign in</b></button>
+    <button onclick="location.href='strawsignup.html'"><ion-icon name="person-circle-outline"></ion-icon><b>Sign in</b></button>
     <button><ion-icon name="heart-circle-outline"></ion-icon><b>Whishlist</b></button>
-    <button><ion-icon name="bag"></ion-icon><b>Bag</b></button>
+    <button onclick="location.href='bag.html'"><ion-icon name="bag"></ion-icon><b>Bag</b></button>
   </div>
   <div>
 </div>
@@ -60,7 +60,7 @@ return `<div class="nav-barCenter">
   </div>
   <!-- 2nd -->
   <div class="dropdown">
-      <div id="skincare" onclick="skinclick()" class="dropbtn">SKINCARE</div>
+      <div id="skincare"class="dropbtn" onclick="location.href='skincare.html'">SKINCARE </div>
       <div class="dropdown-content">
        <div class="row">
       <div class="column">
@@ -93,7 +93,7 @@ return `<div class="nav-barCenter">
     </div>
   <!-- 3rd -->
     <div class="dropdown">
-      <div class="dropbtn">MAKEUP</div>
+      <div class="dropbtn" onclick="location.href='makeup.html'">MAKEUP </div>
       <div class="dropdown-content">
        <div class="row">
       <div class="column">
@@ -133,7 +133,7 @@ return `<div class="nav-barCenter">
     </div>
   <!-- 4th -->
     <div class="dropdown">
-      <div class="dropbtn">HAIRCARE</div>
+      <div class="dropbtn" onclick="location.href='haircare.html'"> HAIRCARE</div>
       <div class="dropdown-content">
        <div class="row">
       <div class="column">
@@ -157,7 +157,7 @@ return `<div class="nav-barCenter">
     </div>
   <!-- 5th -->
     <div class="dropdown">
-      <div class="dropbtn">PERFUME</div>
+      <div class="dropbtn" onclick="location.href='perfume.html'"> PERFUME </div>
       <div class="dropdown-content">
        <div class="row">
       <div class="column">
@@ -181,7 +181,7 @@ return `<div class="nav-barCenter">
     </div>
   <!-- 6th -->
     <div class="dropdown">
-      <div class="dropbtn">MEN'S SKINCARE</div>
+      <div class="dropbtn" onclick="location.href='mensskincare.html'">MEN'S SKINCARE </div>
       <div class="dropdown-content">
        <div class="row">
       <div class="column">
@@ -205,7 +205,7 @@ return `<div class="nav-barCenter">
     </div>
   <!-- 7th -->
     <div class="dropdown">
-      <div class="dropbtn">MEN'S COLOGNE</div>
+      <div class="dropbtn"  onclick="location.href='menscolange.html'">    MEN'S COLOGNE</div>
       <div class="dropdown-content">
        <div class="row">
       <div class="column">
@@ -229,7 +229,7 @@ return `<div class="nav-barCenter">
     </div>
   <!-- 8th -->
     <div class="dropdown">
-      <div class="dropbtn">HOME SCENT</div>
+      <div class="dropbtn" onclick="location.href='homesscents.html'">HOME SCENT </div>
       <div class="dropdown-content">
        <div class="row">
       <div class="column">
@@ -245,7 +245,7 @@ return `<div class="nav-barCenter">
     </div>
   <!-- 9th -->
     <div class="dropdown">
-      <div class="dropbtn"><ion-icon name="gift-outline"></ion-icon> SPECIAL</div>
+      <div class="dropbtn" onclick="location.href='specials.html'"><ion-icon name="gift-outline"></ion-icon>  SPECIAL </div>
       <div class="dropdown-content">
        <div class="row">
       <div class="column">
@@ -269,7 +269,7 @@ return `<div class="nav-barCenter">
     </div>
     <!-- 10th -->
     <div class="dropdown">
-      <div class="dropbtn"><ion-icon name="star"></ion-icon> NEW</div>
+      <div class="dropbtn" onclick="location.href='new1.html'"><ion-icon name="star"></ion-icon>  NEW </div>
       <div class="dropdown-content">
        <div class="row">
       <div class="column">

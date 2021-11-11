@@ -1,3 +1,7 @@
+a{
+  text-decoration: none;
+  color: white;
+}
 .dropbtn {
   color: white;
   letter-spacing: .015em;
@@ -235,5 +239,6 @@ text-decoration: underline;
 #availableOptions >p:hover{
 text-decoration: underline;
 }  
+
 
 
