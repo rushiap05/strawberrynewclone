@@ -279,6 +279,7 @@ return `<div class="nav-barCenter">
       </div>
       </div>
     </div>
+    
     <!-- 10th -->
     <div class="dropdown">
       <div class="dropbtn" onclick="location.href='new1.html'"><ion-icon name="star"></ion-icon>  NEW </div>
@@ -300,8 +301,14 @@ return `<div class="nav-barCenter">
         <ul>Serum & Concentrates</ul>
         <ul>Moisturizers & Treatments</ul>
     </div>
+    
       </div>
+      
       </div>
+      
+    </div>
+    <div class="dropdown">
+    <div class="dropbtn" onclick="location.href='naturalbeauty.html'"><ion-icon name="star"></ion-icon>NATURAL BEAUTY</div>
     </div>
 </div>`;
 }
