@@ -20,6 +20,18 @@ function headerupper(){
       <select name="" id="country">
           <option value="india">India</option>
           <option value="america">America</option>
+          <option>Australia</option>
+          <option>England</option>
+          <option>Pakistan</option>
+          <option>China</option>
+          <option>Africa</option>
+          <option>Dubai</option>
+          <option>Australia</option>
+          <option>Russia</option>
+          <option>Pakistan</option>
+          <option>Japan</option>
+          <option>Korea</option>
+          <option>lanka</option>
       </select>
       <button> Order Tracking</button>
 

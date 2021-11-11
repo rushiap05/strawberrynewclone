@@ -109,3 +109,6 @@
 #newarrivals > :hover{
     text-decoration: underline;
 }
+#line >h2{
+    font-size: 1.7rem;
+}
