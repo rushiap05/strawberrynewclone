@@ -6,13 +6,13 @@
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./styles/index.css">
   <link rel="stylesheet" href="./styles/header.css">
-  <!-- <link rel="stylesheet" href="./styles/footer.css"> -->
+  <link rel="stylesheet" href="./styles/footer.css">
 </head>
 
 <body>
   <!-- <!-header start-  -->
   <div id="header"></div>
-  <div id="navbaroptions"  class="bg"></div>
+  <div id="navbaroptions" class="bg"></div>
   <!-- header end -->
   <!-- navbar end here -->
 
@@ -135,17 +135,28 @@
 <!-- FOOTER SCRIPT ADDING -->
 
 <script type="module">
-  import {headerupper,navbarbelow } from './js elements/header.js'
-    let head = document.getElementById('header')
-    head.innerHTML = headerupper();
-    let navbaroptions=document.getElementById("navbaroptions");
-  navbaroptions.innerHTML=navbarbelow();
-  
-  footerEndPush.innerHTML = footer()
-  </script>
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  
-  <!-- FOOTER SCRIPT ADDING -->
+  import { headerupper, navbarbelow } from './js elements/header.js'
+  let head = document.getElementById('header')
+  head.innerHTML = headerupper();
+  let navbaroptions = document.getElementById("navbaroptions");
+  navbaroptions.innerHTML = navbarbelow();
+
+
+  // END FOOTER JS PART
+
+  // var footerEndPush = document.getElementById('footerEndPush')
+
+  // import footer from './js elements/footer.js'
+
+  // footerEndPush.innerHTML = footer()
+
+  // END FOOTER JS PART
+
+
+</script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<!-- FOOTER SCRIPT ADDING -->
 
 </html>
