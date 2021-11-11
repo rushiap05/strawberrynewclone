@@ -57,6 +57,7 @@ ul:hover {
 #navbaroptions>div> div> div:nth-child(1)> ion-icon{
   height: 12px;
   width: 12px;
+  color: #3f1f74;
 }
 
 
@@ -234,4 +235,5 @@ text-decoration: underline;
 #availableOptions >p:hover{
 text-decoration: underline;
 }  
+
 
