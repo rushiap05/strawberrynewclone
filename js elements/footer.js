@@ -37,7 +37,7 @@ function footer() {
             <div class="footer-heart">
                 <ion-icon name="heart-outline"></ion-icon>
             </div>
-            <div>
+            <div class="footer-middlebox-margin">
                 <p style="font-size: 27px;font-weight: lighter;">Over</p>
                 <h3 style="font-size: 35px;">33,000</h3>
                 <p style="font-size: 27px;font-weight: lighter;">Products From</p>
