@@ -148,7 +148,7 @@ fetchd3()
 fetchd()
 let cont3 = document.getElementById('cont3')
 cont3.style.display = "grid"
-cont3.style.marginTop ="100px"
+cont3.style.marginTop ="50px"
 cont3.style.gridTemplateColumns = "auto auto auto auto"
 cont3.style.gap = "2%"
 var prodhead = ["11.11 Days suprise", "Best Deals", "Best Sellers", "Early Bird 11.11 Sale", "Natural Beauty", "New Arrivals",

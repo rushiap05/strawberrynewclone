@@ -1,7 +1,7 @@
-a{
+/* a{
   text-decoration: none;
   color: white;
-}
+} */
 .dropbtn {
   color: white;
   letter-spacing: .015em;
@@ -32,10 +32,10 @@ color: #623381; font-weight: bold;
   width: 100%;
 }
 
-*{
+/* *{
   box-sizing: border-box;
   font-family: lato, sans-serif;
-}
+} */
 
 .column {
   float: left;
@@ -45,9 +45,9 @@ color: #623381; font-weight: bold;
   background-color: white;
 }
 
-ul{
+/* ul{
 margin-left:-40px;
-}
+} */
 
 ul:hover {
     color: #C50D72;
@@ -55,7 +55,7 @@ ul:hover {
 }
 
 .nav-barCenter {
-    width: 90%;
+    width: 98%;
     margin: auto;
 }
 #navbaroptions>div> div> div:nth-child(1)> ion-icon{
@@ -73,7 +73,7 @@ ul:hover {
 }
  /* Header Upper Part Narendra */
   #header{
-    background-color: #EDE7F6;
+    background-color: white;
      height: 100px;
      display: grid;
      grid-template-columns: 30% 30% 30%;
@@ -89,7 +89,7 @@ ul:hover {
     color: #623381;
     height: 30px;
     font-size: 15px;
-    background-color: #EDE7F6;
+    background-color: white;
 
 }
 
@@ -98,12 +98,12 @@ ul:hover {
 border: 2px solid #623381 ;
 color: #623381;
 border-radius: 5px;
-background-color: #EDE7F6;
+background-color: white;
 
 }
 #headermiddle> div >ion-icon{
  height: 15px;
- background-color: #EDE7F6;
+ background-color: white;
 }
 #searchbar + div{
     margin-top: 10px;
@@ -114,7 +114,7 @@ background-color: #EDE7F6;
  border: none;
  padding: 4px;
  color: #851ccc;
- background-color: #EDE7F6;
+ background-color: white;
 
 }
 #searchbar + div> button:hover{
@@ -124,14 +124,14 @@ background-color: #EDE7F6;
     border: none;
     text-align: right;
     color: #C50D72;
-    background-color: #EDE7F6;
+    background-color: white;
 
 }
 
 #headerend > div{
    text-align: right;
    color: #C50D72;
-   background-color: #EDE7F6;
+   background-color: white;
 
 
 }
@@ -139,7 +139,7 @@ background-color: #EDE7F6;
     padding:5px ;
     border: none;
     color: #C50D72;
-    background-color: #EDE7F6;
+    background-color:white;
 }
 
 #headerend > div>button:hover{

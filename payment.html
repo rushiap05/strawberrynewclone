@@ -10,7 +10,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/payment.css">
     <link rel="stylesheet" href="./styles/header.css">
-    <!-- <link rel="stylesheet" href="./styles/footer.css"> -->
+    <link rel="stylesheet" href="./styles/footer.css">
 </head>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
     integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
@@ -21,7 +21,7 @@
 
 <body id="body">
     <div id="header"></div>
-    <div id="navbaroptions"  class="bg"></div>
+    <div id="navbaroptions" class="bg"></div>
     <div class="container">
         <h2>P A Y M E N T</h2>
     </div>
@@ -58,7 +58,7 @@
 
     <div id="footerEndPush"></div>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 
     <!-- FOOTER JS END -->
@@ -67,9 +67,18 @@
 </html>
 <script src="./js elements/payment.js"></script>
 <script type="module">
-    import {headerupper,navbarbelow } from './js elements/header.js'
+    import { headerupper, navbarbelow } from './js elements/header.js'
     let head = document.getElementById('header')
     head.innerHTML = headerupper();
-    let navbaroptions=document.getElementById("navbaroptions");
-  navbaroptions.innerHTML=navbarbelow();
+    let navbaroptions = document.getElementById("navbaroptions");
+    navbaroptions.innerHTML = navbarbelow();
+    // END FOOTER JS PART
+
+    var footerEndPush = document.getElementById('footerEndPush')
+
+    import footer from './js elements/footer.js'
+
+    footerEndPush.innerHTML = footer()
+
+    // END FOOTER JS PART
 </script>
