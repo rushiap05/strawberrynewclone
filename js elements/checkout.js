@@ -342,3 +342,46 @@ function startpay(){
     }
 }
 
+// LOGIN PART JS
+let body = document.body;
+let str = "";
+function login() {
+  let a = document.getElementById("login")
+  a.style.top = "30px";
+  a.style.left = "33%";
+  body.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
+
+}
+
+function cancel() {
+  document.getElementById("login").style.top = "-800px";
+  body.style.backgroundColor = "white";
+}
+
+
+function signin() {
+  // e.preventDefault();
+  var myForm = document.getElementById('myForm')
+
+  var email = document.getElementById('email-input').value;
+  var password = document.getElementById('password-input').value;
+
+  let user = JSON.parse(localStorage.getItem('users'));
+
+  // document.getElementById('append-name').textContent = null;
+
+  user.forEach(function (user) {
+    if (user.email === email && user.password === password) {
+    //   document.getElementById('append-name').textContent = user.name;
+    //   console.log(user.name);
+      alert("logged in successfully")
+    }
+    else {
+      alert("wrong email of password")
+    }
+  })
+}
+
+
+
+// LOGIN PART JS
