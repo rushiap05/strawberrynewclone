@@ -108,3 +108,9 @@ select{
     height: auto;
     overflow-y: scroll;
 }
+
+.background-image-design {
+    background-image: url(https://a.cdnsbn.com/images/common/oitem_bg.gif);
+    height: 170px;
+    width: 170px;
+}
