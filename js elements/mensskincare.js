@@ -117,15 +117,9 @@ function showdatainlist(products){
         // div3.style.width = "120px";
         // div3.style.height = "120px"
         let cost = document.createElement("h5")
-        cost.style.height = "100px";
+        cost.classList.add('h5-price-tag')
+        // cost.style.height = "100px";
         cost.textContent =  "Rs. " +product.price
-        cost.style.marginTop = "50px";
-        cost.style.color = "white"
-        cost.style.justifyContent = "center"
-        cost.style.textAlign = "center"
-        div3.style.marginTop = "20px"
-        cost.style.width = "100px"
-        cost.style.backgroundImage = "https://a.cdnsbn.com/images/common/oitem_bg.gif"
         div3.append(cost)
         let tobag = document.createElement('button')
         tobag.innerText = "Add to Bag"
