@@ -7,19 +7,19 @@
 #h3,#order,#but ,#inp{
     font-size: 20px;
 }
-#track,div>button{
+#track,#queries>div>button{
     background-color:#F06292;
     color: whitesmoke;
     font-size: 20px;
 
 }
-#track:hover,div>button:hover{
+#track:hover,#queries>div>button:hover{
     background-color:#D81B60;
     
 }
 
 
-div{
+#queries{
     background-color:#EFEBE9;
     border: 1px ;
     width: 60%;
