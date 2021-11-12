@@ -105,7 +105,7 @@ return `<div class="nav-barCenter">
     </div>
   <!-- 3rd -->
     <div class="dropdown">
-      <div class="dropbtn" onclick="location.href='makeup.html'">MAKEUP </div>
+      <div class="dropbtn" id="makeup" onclick="location.href='makeup.html'">MAKEUP </div>
       <div class="dropdown-content">
        <div class="row">
       <div class="column">
@@ -145,7 +145,7 @@ return `<div class="nav-barCenter">
     </div>
   <!-- 4th -->
     <div class="dropdown">
-      <div class="dropbtn" onclick="location.href='haircare.html'"> HAIRCARE</div>
+      <div class="dropbtn" id="haircare" onclick="location.href='haircare.html'"> HAIRCARE</div>
       <div class="dropdown-content">
        <div class="row">
       <div class="column">
@@ -169,7 +169,7 @@ return `<div class="nav-barCenter">
     </div>
   <!-- 5th -->
     <div class="dropdown">
-      <div class="dropbtn" onclick="location.href='perfume.html'"> PERFUME </div>
+      <div class="dropbtn" id="perfume" onclick="location.href='perfume.html'"> PERFUME </div>
       <div class="dropdown-content">
        <div class="row">
       <div class="column">
@@ -193,7 +193,7 @@ return `<div class="nav-barCenter">
     </div>
   <!-- 6th -->
     <div class="dropdown">
-      <div class="dropbtn" onclick="location.href='mensskincare.html'">MEN'S SKINCARE </div>
+      <div class="dropbtn" id="mensskincare" onclick="location.href='mensskincare.html'">MEN'S SKINCARE </div>
       <div class="dropdown-content">
        <div class="row">
       <div class="column">
@@ -217,7 +217,7 @@ return `<div class="nav-barCenter">
     </div>
   <!-- 7th -->
     <div class="dropdown">
-      <div class="dropbtn"  onclick="location.href='menscolange.html'">    MEN'S COLOGNE</div>
+      <div class="dropbtn" id="menscolange"  onclick="location.href='menscolange.html'">    MEN'S COLOGNE</div>
       <div class="dropdown-content">
        <div class="row">
       <div class="column">
@@ -241,7 +241,7 @@ return `<div class="nav-barCenter">
     </div>
   <!-- 8th -->
     <div class="dropdown">
-      <div class="dropbtn" onclick="location.href='homesscents.html'">HOME SCENT </div>
+      <div class="dropbtn" id="homesscents" onclick="location.href='homesscents.html'">HOME SCENT </div>
       <div class="dropdown-content">
        <div class="row">
       <div class="column">
@@ -257,7 +257,7 @@ return `<div class="nav-barCenter">
     </div>
   <!-- 9th -->
     <div class="dropdown">
-      <div class="dropbtn" onclick="location.href='specials.html'"><ion-icon name="gift-outline"></ion-icon>  SPECIAL </div>
+      <div class="dropbtn" id="specials" onclick="location.href='specials.html'"><ion-icon name="gift-outline"></ion-icon>  SPECIAL </div>
       <div class="dropdown-content">
        <div class="row">
       <div class="column">
@@ -282,7 +282,7 @@ return `<div class="nav-barCenter">
     
     <!-- 10th -->
     <div class="dropdown">
-      <div class="dropbtn" onclick="location.href='new1.html'"><ion-icon name="star"></ion-icon>  NEW </div>
+      <div class="dropbtn" id="new1" onclick="location.href='new1.html'"><ion-icon name="star"></ion-icon>  NEW </div>
       <div class="dropdown-content">
        <div class="row">
       <div class="column">
@@ -308,7 +308,7 @@ return `<div class="nav-barCenter">
       
     </div>
     <div class="dropdown">
-    <div class="dropbtn" onclick="location.href='naturalbeauty.html'"><ion-icon name="star"></ion-icon>NATURAL BEAUTY</div>
+    <div class="dropbtn" id="naturalbeauty" onclick="location.href='naturalbeauty.html'"><ion-icon name="star"></ion-icon>NATURAL BEAUTY</div>
     </div>
 </div>`;
 }
