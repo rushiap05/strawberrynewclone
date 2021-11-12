@@ -6,11 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./styles/track.css">
+    <link rel="stylesheet" href="./styles/track.css"> 
+    <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/footer.css">
 </head>
 
 <body>
+    <div id="header"></div>
+    <div id="navbaroptions" class="bg"></div>
     <h1>TRACK YOUR ORDER</h1>
     <div id="status"></div>
     <label id="order">Order Number : </label>
@@ -31,7 +34,9 @@
     <div id="footerEndPush"></div>
 
     <!-- FOOTER JS END -->
-
+  
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 
@@ -50,4 +55,20 @@
 
     // END FOOTER JS PART
 
+</script>
+<script type="module">
+    import { headerupper, navbarbelow } from './js elements/header.js'
+    let head = document.getElementById('header')
+    head.innerHTML = headerupper();
+    let navbaroptions = document.getElementById("navbaroptions");
+    navbaroptions.innerHTML = navbarbelow();
+    // END FOOTER JS PART
+
+    var footerEndPush = document.getElementById('footerEndPush')
+
+    import footer from './js elements/footer.js'
+
+    footerEndPush.innerHTML = footer()
+
+    // END FOOTER JS PART
 </script>
