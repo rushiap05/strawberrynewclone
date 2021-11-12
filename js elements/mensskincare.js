@@ -84,7 +84,7 @@ function showdatainlist(products){
         div.style.display = "flex"
         div.style.height = "170px"
         let name = document.createElement("h6")
-        name.style.width = "570px"
+        name.style.width = "530px"
         name.style.marginTop = "50px"
         name.textContent =product.source +"  " +product.title
         let div2 = document.createElement('div')
