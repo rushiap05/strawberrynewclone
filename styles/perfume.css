@@ -112,4 +112,5 @@
 
 #products {
     height: 8000px;
+    overflow-y: scroll;
 }
