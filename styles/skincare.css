@@ -112,3 +112,8 @@
 #line >h2{
     font-size: 1.7rem;
 }
+
+#products {
+    height: 8000px;
+    overflow-y: scroll;
+}

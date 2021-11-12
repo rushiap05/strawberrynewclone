@@ -104,4 +104,7 @@ select{
     background-color: #CFD8DC;
 }
 
-
+#products {
+    height: 8000px;
+    overflow-y: scroll;
+}
