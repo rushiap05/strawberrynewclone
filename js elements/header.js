@@ -37,9 +37,46 @@ function headerupper(){
 
   </div>
   <div>
-    <button onclick="location.href='strawsignup.html'"><ion-icon name="person-circle-outline"></ion-icon><b>Sign in</b></button>
+
+  
+
+    <button onclick="login()"><ion-icon name="person-circle-outline"></ion-icon><b>Sign in</b></button>
     <button><ion-icon name="heart-circle-outline"></ion-icon><b>Whishlist</b></button>
     <button onclick="location.href='bag.html'"><ion-icon name="bag"></ion-icon><b>Bag</b></button>
+
+
+    <div class="login" id="login">
+    <div class="material-icons cross" onclick="cancel()">
+      close
+    </div>
+
+    <div class="login-div">
+      <h3 id="append-name">Sign In</h3>
+    </div>
+
+
+    <div class="line-straight"></div>
+
+
+    <div>
+      <form id="myForm">
+        <input id="email-input" type="email" placeholder="Email address" required>
+    </div>
+    <div>
+      <input id="password-input" type="password" placeholder="Password" required>
+    </div>
+    </form>
+    <p class="forgot">Forgot Password?</p>
+
+    <button onclick="signin()" class="sign-button">SIGN IN</button>
+    <div class="new-account"><a href="strawsignup.html">Create New Account.</a></div>
+
+  </div>
+
+    
+
+
+
   </div>
   <div>
 </div>
