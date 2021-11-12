@@ -109,3 +109,7 @@
 #newarrivals > :hover{
     text-decoration: underline;
 }
+
+#products {
+    height: 8000px;
+}
