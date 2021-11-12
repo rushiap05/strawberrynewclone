@@ -108,9 +108,14 @@ function showdatainlist(products){
         button.style.color = "white"
         div2.append(img, button)
         let div3 = document.createElement('div')
-        div3.style.backgroundColor = "red"
-        div3.style.width = "120px";
-        div3.style.height = "120px"
+       // div3.style.backgroundColor = "red"
+
+        // SOME CHANGES
+        div3.classList.add("background-image-design");
+        // SOME CHANGES
+
+        // div3.style.width = "120px";
+        // div3.style.height = "120px"
         let cost = document.createElement("h5")
         cost.style.height = "100px";
         cost.textContent =  "Rs. " +product.price
