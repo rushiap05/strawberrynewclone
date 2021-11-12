@@ -1,4 +1,4 @@
-
+let parent = document.getElementById("queries")
 let divs = document.createElement("div")
 let para = document.createElement("h2")
 let ma1 = document.createElement("h3")
@@ -21,7 +21,8 @@ function add(){
           ma3.textContent = "Q. How long will it take to get my order?"
           ma4.textContent = "A. Please check here for more details."
           divs.append(but,para,ma1,ma2,ma3,ma4)
-          document.body.append(divs)
+          parent.append(divs)
+          document.body.append(parent)
 }
 
 let q2 = document.getElementById("q2");
@@ -33,7 +34,8 @@ function add2(){
           ma3.textContent = "Our customer service agents are standing by to help answer your enquiries. If your call is regarding an order you have placed with us, then please have your order number ready.Remember to dial your international dial-out code first followed by our country code (852).Contact Us : (852) 3516 8719 Customer Service office hour: Monday to Saturday from 9:00 a.m. to 6:00 p.m. and Sunday: Off (HK Time) Our customer service agents are standing by to help answer your enquiries. If your call is regarding an order you have placed with us, then please have your order number ready. Remember to dial your international dial-out code first followed by our country code (852)."
           ma4.textContent = "Contact Us:(852) 3516 8719"
           divs.append(but,para,ma2,ma3,ma4)
-          document.body.append(divs)
+          parent.append(divs)
+          document.body.append(parent)
 }
 
 let q3 = document.getElementById("q3");
@@ -46,7 +48,8 @@ function add3(){
           ma5.textContent = "https://www.strawberrynet.com/customer-service/delivery/"
           ma3.textContent = "You can also use your own country's postal service's website if they have an EMS tracking option available online. For registered airmail, only limited tracking is available and only after a certain period of time from the date of dispatch, normally 10 working days.Please note no tracking is available for non-registered airmail."
           divs.append(but,para,ma2,ma5,ma3)
-          document.body.append(divs)
+          parent.append(divs)
+          document.body.append(parent)
 }
 
 let q4 = document.getElementById("q4");
@@ -57,7 +60,8 @@ function add4(){
           ma2.textContent = "A. It depends on the destination."
           ma3.textContent = "We currently ship to over 190 countries excluding France, Monaco, and Turkey.Effective from 18 February 2020, we will no longer cover VAT claims. In the event that your order is charged taxes or other additional charges, you are responsible for all expense occurred, which is not refundable."
           divs.append(but,para,ma2,ma3)
-          document.body.append(divs)
+          parent.append(divs)
+          document.body.append(parent)
 }
 
 let track = document.getElementById("track")
