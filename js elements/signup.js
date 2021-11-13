@@ -36,8 +36,10 @@ function signup(e) {
     }
     else {
         arr.push(user);
+        alert('New Sign up is completed');
 
     localStorage.setItem('users', JSON.stringify(arr))
+    window.location.href = 'index.html'
     }
 }
 

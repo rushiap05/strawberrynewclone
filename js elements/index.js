@@ -927,18 +927,18 @@ function signin() {
   var email = document.getElementById('email-input').value;
   var password = document.getElementById('password-input').value;
 
-  let user = JSON.parse(localStorage.getItem('users'));
+  let userdetail = JSON.parse(localStorage.getItem('users'));
 
   // document.getElementById('append-name').textContent = null;
 
-  user.forEach(function (user) {
+  userdetail.forEach(function (user) {
     if (user.email === email && user.password === password) {
     //   document.getElementById('append-name').textContent = user.name;
     //   console.log(user.name);
       alert("logged in successfully")
     }
     else {
-      alert("wrong email of password")
+      alert("wrong email or password")
     }
   })
 }
