@@ -920,8 +920,8 @@ function cancel() {
 }
 
 
-function signin() {
-  // e.preventDefault();
+function signin(event) {
+  event.preventDefault();
   var myForm = document.getElementById('myForm-signin')
 
   var email1 = document.getElementById('email-input').value;
