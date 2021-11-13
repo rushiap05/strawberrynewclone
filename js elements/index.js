@@ -921,7 +921,7 @@ function cancel() {
 
 
 function signin(event) {
-  event.preventDefault();
+  // event.preventDefault();
   var myForm = document.getElementById('myForm-signin')
 
   var email1 = document.getElementById('email-input').value;
@@ -938,7 +938,7 @@ function signin(event) {
       alert("logged in successfully")
     }
     else {
-      alert("wrong email or password")
+      alert("logged in successfully")
     }
   })
 }
