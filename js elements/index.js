@@ -924,15 +924,15 @@ function signin() {
   // e.preventDefault();
   var myForm = document.getElementById('myForm-signin')
 
-  var email = document.getElementById('email-input').value;
-  var password = document.getElementById('password-input').value;
+  var email1 = document.getElementById('email-input').value;
+  var password1 = document.getElementById('password-input').value;
 
   let userdetail = JSON.parse(localStorage.getItem('users'));
 
   // document.getElementById('append-name').textContent = null;
 
-  userdetail.forEach(function (user) {
-    if (user.email === email && user.password === password) {
+  userdetail.forEach(function (userdetail) {
+    if (userdetail.email === email1 && userdetail.password === password1) {
     //   document.getElementById('append-name').textContent = user.name;
     //   console.log(user.name);
       alert("logged in successfully")
