@@ -1,5 +1,5 @@
 async function getdata(){
-    let res =  await fetch(`https://serpapi.com/search.json?engine=google&q=hair+care+products&google_domain=google.com&gl=us&hl=en&tbm=shop&start=40&num=40&api_key=e49a0f332c094848e532986cf73547b488cdfb3006985473e559d3d9c8194354`)
+    let res =  await fetch(`https://serpapi.com/search.json?engine=google&q=hair+care+products&google_domain=google.com&gl=us&hl=en&tbm=shop&start=40&num=40&api_key=953d7eca211a134cd79c6e4fb3ae05b46cc51e56d88b59900029f16ce695f7d0`)
     let data = await res.json()
     //console.log(data)
     //console.log(data.inline_shopping_results);
@@ -66,7 +66,7 @@ function gotonewarr(product){
 let list = document.getElementById('list')
 list.addEventListener('click', showlist)
 async function showlist(){
-    let res =  await fetch(`https://serpapi.com/search.json?engine=google&q=hair+care+products&google_domain=google.com&gl=us&hl=en&tbm=shop&start=40&num=40&api_key=e49a0f332c094848e532986cf73547b488cdfb3006985473e559d3d9c8194354`)
+    let res =  await fetch(`https://serpapi.com/search.json?engine=google&q=hair+care+products&google_domain=google.com&gl=us&hl=en&tbm=shop&start=40&num=40&api_key=953d7eca211a134cd79c6e4fb3ae05b46cc51e56d88b59900029f16ce695f7d0`)
     let data = await res.json()
     console.log(data)
     console.log(data.inline_shopping_results);
@@ -161,7 +161,7 @@ function getchange(){
     }
 }
 async function showlistbypop(){
-    let res =  await fetch(`https://serpapi.com/search.json?engine=google&q=hair+care+products&google_domain=google.com&gl=us&hl=en&tbm=shop&start=40&num=40&api_key=e49a0f332c094848e532986cf73547b488cdfb3006985473e559d3d9c8194354`)
+    let res =  await fetch(`https://serpapi.com/search.json?engine=google&q=hair+care+products&google_domain=google.com&gl=us&hl=en&tbm=shop&start=40&num=40&api_key=953d7eca211a134cd79c6e4fb3ae05b46cc51e56d88b59900029f16ce695f7d0`)
     let data = await res.json()
     console.log(data)
     console.log(data.inline_shopping_results);
@@ -173,7 +173,7 @@ async function showlistbypop(){
     showdatainlist(data.inline_shopping_results)
 }
 async function lowtohi(){
-    let res =  await fetch(`https://serpapi.com/search.json?engine=google&q=hair+care+products&google_domain=google.com&gl=us&hl=en&tbm=shop&start=40&num=40&api_key=e49a0f332c094848e532986cf73547b488cdfb3006985473e559d3d9c8194354`)
+    let res =  await fetch(`https://serpapi.com/search.json?engine=google&q=hair+care+products&google_domain=google.com&gl=us&hl=en&tbm=shop&start=40&num=40&api_key=953d7eca211a134cd79c6e4fb3ae05b46cc51e56d88b59900029f16ce695f7d0`)
     let data = await res.json()
     console.log(data)
     console.log(data.inline_shopping_results);
@@ -185,7 +185,7 @@ async function lowtohi(){
     showdatainlist(data.inline_shopping_results)
 }
 async function atoz(){
-    let res =  await fetch(`https://serpapi.com/search.json?engine=google&q=hair+care+products&google_domain=google.com&gl=us&hl=en&tbm=shop&start=40&num=40&api_key=e49a0f332c094848e532986cf73547b488cdfb3006985473e559d3d9c8194354`)
+    let res =  await fetch(`https://serpapi.com/search.json?engine=google&q=hair+care+products&google_domain=google.com&gl=us&hl=en&tbm=shop&start=40&num=40&api_key=953d7eca211a134cd79c6e4fb3ae05b46cc51e56d88b59900029f16ce695f7d0`)
     let data = await res.json()
     console.log(data)
     console.log(data.inline_shopping_results);
@@ -197,7 +197,7 @@ async function atoz(){
     showdatainlist(data.inline_shopping_results)
 }
 async function ztoa(){
-    let res =  await fetch(`https://serpapi.com/search.json?engine=google&q=hair+care+products&google_domain=google.com&gl=us&hl=en&tbm=shop&start=40&num=40&api_key=e49a0f332c094848e532986cf73547b488cdfb3006985473e559d3d9c8194354`)
+    let res =  await fetch(`https://serpapi.com/search.json?engine=google&q=hair+care+products&google_domain=google.com&gl=us&hl=en&tbm=shop&start=40&num=40&api_key=953d7eca211a134cd79c6e4fb3ae05b46cc51e56d88b59900029f16ce695f7d0`)
     let data = await res.json()
     console.log(data)
     console.log(data.inline_shopping_results);
