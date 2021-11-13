@@ -47,7 +47,7 @@ h3 + div {
     margin-top: 25px;
 }
 
-#myForm > div {
+#myForm-signup > div {
     width: 80%;
     margin: 15px auto;
 }

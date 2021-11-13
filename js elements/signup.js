@@ -1,6 +1,6 @@
 function signup(e) {
     // e.preventDefault();
-    var myForm = document.getElementById('myForm')
+    var myForm = document.getElementById('myForm-signup')
 
     var name = myForm.name.value;
     var email = myForm.email.value;

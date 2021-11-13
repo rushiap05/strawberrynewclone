@@ -308,12 +308,13 @@
   //SIGN IN FUCNTIONALITY
   // LOGIN PART JS
 let body = document.body;
-let str = "";
+// let str = "";
 function login() {
   let a = document.getElementById("login")
-  a.style.top = "30px";
+  a.style.top = "80px";
   a.style.left = "33%";
   body.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
+  // body.backgroundColor = null;
 
 }
 
@@ -325,7 +326,7 @@ function cancel() {
 
 function signin() {
   // e.preventDefault();
-  var myForm = document.getElementById('myForm')
+  var myForm = document.getElementById('myForm-signin')
 
   var email = document.getElementById('email-input').value;
   var password = document.getElementById('password-input').value;

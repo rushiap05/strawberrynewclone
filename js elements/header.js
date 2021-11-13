@@ -59,7 +59,7 @@ function headerupper(){
 
 
     <div>
-      <form id="myForm">
+      <form id="myForm-signin">
         <input id="email-input" type="email" placeholder="Email address" required>
     </div>
     <div>
